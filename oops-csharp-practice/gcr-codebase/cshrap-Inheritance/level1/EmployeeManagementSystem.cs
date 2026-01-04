@@ -37,16 +37,16 @@ class Manager : Employee
 }
 class Developer : Employee
 {
-    public string programmingLanguage;
-    public Developer(string name, int id, double salary, string programmingLanguage) : base(name, id, salary)
+    public string programminglanguage;
+    public Developer(string name, int id, double salary, string programminglanguage) : base(name, id, salary)
     {
-        this.programmingLanguage = programmingLanguage;
+        this.programminglanguage = programminglanguage;
     }
 
     public override void DisplayDetails()
     {
         base.DisplayDetails();
-        Console.WriteLine("Programming Language: " + ProgrammingLanguage);
+        Console.WriteLine("Programming Language: " + Programminglanguage);
     }
 }
 class Intern : Employee
