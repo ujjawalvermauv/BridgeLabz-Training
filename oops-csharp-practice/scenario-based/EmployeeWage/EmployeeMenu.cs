@@ -23,6 +23,7 @@ namespace EmployeeWage
             {
                 Console.WriteLine("\n==== Employee Wage Computation ====");
                 Console.WriteLine("1. UC1 - Check Attendance");
+                Console.WriteLine("2. UC2 - Calculate Daily Wage");
                 Console.WriteLine("0. Exit");
                 Console.Write("Enter Choice: ");
 
@@ -32,6 +33,9 @@ namespace EmployeeWage
                 {
                     case 1:
                         employeeService.CheckAttendance();
+                        break;
+                    case 2:
+                        employeeService.CalculateDailyWage();
                         break;
                     case 0:
                         Console.WriteLine("Exiting...");
