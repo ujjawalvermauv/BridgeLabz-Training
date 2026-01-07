@@ -91,5 +91,41 @@ namespace EmployeeWage
 
             Console.WriteLine("Monthly Wage (20 Days): " + totalWage);
         }
+        // UC5 - Calculate Wage till 100 Hours or 20 Days
+        public void CalculateWageWithLimit()
+        {
+            int totalHours = 0;
+            int totalDays = 0;
+            int totalWage = 0;
+
+            while (totalHours < _maxHours && totalDays < _workingDays)
+            {
+                totalDays++;
+                int empType = random.Next(0, 3);
+                int hours = 0;
+
+                switch (empType)
+                {
+                    case 1:
+                        hours = _fullDayHour;
+                        break;
+                    case 2:
+                        hours = _partTimeHour;
+                        break;
+                    default:
+                        hours = 0;
+                        break;
+                }
+
+                totalHours += hours;
+                totalWage += hours * _wagePerHour;
+            }
+
+            Console.WriteLine("Total Days: " + totalDays);
+            Console.WriteLine("Total Hours: " + totalHours);
+            Console.WriteLine("Total Wage with Condition: " + totalWage);
+        }
+
     }
 }
+

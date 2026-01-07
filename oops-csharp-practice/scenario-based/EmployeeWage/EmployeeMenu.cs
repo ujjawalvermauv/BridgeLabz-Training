@@ -26,6 +26,7 @@ namespace EmployeeWage
                 Console.WriteLine("2. UC2 - Calculate Daily Wage");
                 Console.WriteLine("3. UC3 - Part Time Employee Wage");
                 Console.WriteLine("4. UC4 - Monthly Wage (20 Days)");
+                Console.WriteLine("5. UC5 - Wage with Hour/Day Limit");
                 Console.WriteLine("0. Exit");
                 Console.Write("Enter Choice: ");
 
@@ -44,6 +45,9 @@ namespace EmployeeWage
                         break;
                     case 4:
                         employeeService.CalculateMonthlyWage();
+                        break;
+                    case 5:
+                        employeeService.CalculateWageWithLimit();
                         break;
 
                     case 0:
