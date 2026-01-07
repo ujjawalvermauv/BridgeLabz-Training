@@ -11,6 +11,10 @@ namespace EmployeeWage
         private readonly int _wagePerHour = 20;
         private readonly int _fullDayHour = 8;
         private double _dailyWage;
+        private double _dailyWage;
+        private readonly int _partTimeHour = 8;
+        private readonly int _workingDays = 20;
+        private readonly int _maxHours = 100;
         private Random random = new Random();
 
 
@@ -58,6 +62,34 @@ namespace EmployeeWage
 
             int wage = hours * _wagePerHour;
             Console.WriteLine("Wage: " + wage);
+        }
+        // UC4 - Calculate Wages for a Month (20 Days)
+        public void CalculateMonthlyWage()
+        {
+            int totalWage = 0;
+
+            for (int day = 1; day <= _workingDays; day++)
+            {
+                int empType = random.Next(0, 3);
+                int hours = 0;
+
+                switch (empType)
+                {
+                    case 1:
+                        hours = _fullDayHour;
+                        break;
+                    case 2:
+                        hours = _partTimeHour;
+                        break;
+                    default:
+                        hours = 0;
+                        break;
+                }
+
+                totalWage += hours * _wagePerHour;
+            }
+
+            Console.WriteLine("Monthly Wage (20 Days): " + totalWage);
         }
     }
 }

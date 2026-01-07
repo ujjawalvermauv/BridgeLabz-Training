@@ -25,6 +25,7 @@ namespace EmployeeWage
                 Console.WriteLine("1. UC1 - Check Attendance");
                 Console.WriteLine("2. UC2 - Calculate Daily Wage");
                 Console.WriteLine("3. UC3 - Part Time Employee Wage");
+                Console.WriteLine("4. UC4 - Monthly Wage (20 Days)");
                 Console.WriteLine("0. Exit");
                 Console.Write("Enter Choice: ");
 
@@ -41,6 +42,10 @@ namespace EmployeeWage
                     case 3:
                         employeeService.AddPartTimeEmployee();
                         break;
+                    case 4:
+                        employeeService.CalculateMonthlyWage();
+                        break;
+
                     case 0:
                         Console.WriteLine("Exiting...");
                         break;
