@@ -33,5 +33,31 @@ namespace EmployeeWage
             _dailyWage = _fullDayHour * _wagePerHour;
             Console.WriteLine("Employee Daily Wage : " + _dailyWage);
         }
+        public void AddPartTimeEmployee() //UC3 - Part Time Employee Wage
+        {
+            int empType = random.Next(0, 3); // 0-Absent, 1-FullTime, 2-PartTime
+            int hours = 0;
+
+            switch (empType)
+            {
+                case 1:
+                    Console.WriteLine("Full Time Employee");
+                    hours = _fullDayHour;
+                    break;
+
+                case 2:
+                    Console.WriteLine("Part Time Employee");
+                    hours = _partTimeHour;
+                    break;
+
+                default:
+                    Console.WriteLine("Employee is Absent");
+                    hours = 0;
+                    break;
+            }
+
+            int wage = hours * _wagePerHour;
+            Console.WriteLine("Wage: " + wage);
+        }
     }
 }

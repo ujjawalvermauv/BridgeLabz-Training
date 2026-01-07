@@ -10,6 +10,7 @@ namespace EmployeeWage
     {
         void CheckAttendance();//uc1
         void CalculateDailyWage(); //uc2
+        void AddPartTimeEmployee(); //uc3
 
     }
 }
