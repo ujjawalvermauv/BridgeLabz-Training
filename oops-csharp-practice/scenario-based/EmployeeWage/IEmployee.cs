@@ -13,6 +13,8 @@ namespace EmployeeWage
         void AddPartTimeEmployee(); //uc3
         void CalculateMonthlyWage();   // uc4
         void CalculateWageWithLimit(); //uc5
+        void addEmployeeDetails(); //uc6
+        void GetEmployees(); //uc6
 
     }
 }

@@ -10,7 +10,6 @@ namespace EmployeeWage
     {
 
         private readonly IEmployee employeeService;
-
         public EmployeeMenu()
         {
             employeeService = new EmployeeUtilityImpl();
@@ -27,6 +26,8 @@ namespace EmployeeWage
                 Console.WriteLine("3. UC3 - Part Time Employee Wage");
                 Console.WriteLine("4. UC4 - Monthly Wage (20 Days)");
                 Console.WriteLine("5. UC5 - Wage with Hour/Day Limit");
+                Console.WriteLine("6. UC6 - Add Employee Details");
+                Console.WriteLine("7. UC6 - Get Employee Details");
                 Console.WriteLine("0. Exit");
                 Console.Write("Enter Choice: ");
 
@@ -49,7 +50,12 @@ namespace EmployeeWage
                     case 5:
                         employeeService.CalculateWageWithLimit();
                         break;
-
+                    case 6:
+                        employeeService.addEmployeeDetails();
+                        break;
+                    case 7:
+                        employeeService.GetEmployees();
+                        break;
                     case 0:
                         Console.WriteLine("Exiting...");
                         break;

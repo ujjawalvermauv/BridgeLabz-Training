@@ -16,9 +16,8 @@ namespace EmployeeWage
         private readonly int _workingDays = 20;
         private readonly int _maxHours = 100;
         private Random random = new Random();
-
-
-
+        private Employee[] employees = new Employee[100];
+        int count = 0;
 
         // UC1 - Check Employee is Present or Absent
         public void CheckAttendance()
@@ -126,6 +125,29 @@ namespace EmployeeWage
             Console.WriteLine("Total Wage with Condition: " + totalWage);
         }
 
+
+        public void add() //uc6 - Add Employee Details
+        {
+            Employee emp = new Employee();
+
+            Console.Write("Enter Employee Id: ");
+            emp.EmployeeId = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter Employee Name: ");
+            emp.Name = Console.ReadLine();
+
+            employees[count] = emp;
+            count++;
+
+            Console.WriteLine("Employee Added Successfully!");
+        }
+        public void GetEmployees() //uc6 - Get Employee Details
+        {
+            Console.WriteLine("Enter employee id");
+            int id = int.Parse(Console.ReadLine());
+            Console.WriteLine(employees[id].ToString());
+
+        }
     }
 }
 
