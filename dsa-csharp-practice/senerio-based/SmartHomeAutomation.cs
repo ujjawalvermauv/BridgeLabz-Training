@@ -1,13 +1,13 @@
 using System;
-public interface IControllable
+public interface IControllable // Interface for controllable appliances
 {
     void TurnOn();
     void TurnOff();
 }
-public class Appliance
+public class Appliance // Base class for appliances
 {
-    private string name;
-    public Appliance(string name)
+    private string name; // Name of the appliance
+    public Appliance(string name) // Constructor
     {
         this.name = name;
     }
