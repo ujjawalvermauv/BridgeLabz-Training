@@ -19,9 +19,9 @@ public class ContactPerson
         return FirstName;
         
     }
-    public void SetLastName(string Lastame) 
+    public void SetSecondName(string SecondName) 
     {
-        this.LastNameName=Lastame;
+        this.SecondName=SecondName;
     }
     public GetLastName(){
         return LastName;
@@ -68,6 +68,23 @@ public class ContactPerson
     {
         return Email;
     }
+    public AdressBook(string FirstName,string SecondName,string Address ,string City,string State,string PhoneNumber,string Email)
+    {
+        this.Address=Address;
+        this.FirstName=Firstname;
+        this.SecondName=SecondName;
+        this.Address=Address;
+        this.State=State;
+        this.PhoneNumber=PhoneNumber;
+        this.Email=Email;
+        this.City=City;
+
+    }
+    public override string ToString()
+        {
+            return "FirstName" + this.FirstName +"LastName"+this.SecondName+"Address "+this.Address+"city"+this.City+"phoneNumber"+this.PhoneNumber+"Email"+this.Email;
+        }
+    
     
 
 }
