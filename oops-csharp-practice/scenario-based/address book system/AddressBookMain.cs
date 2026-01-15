@@ -1,14 +1,26 @@
-using system;
+using System;
+
 class AddressBookMain
 {
-    static void Main(string [] args)
+    static void Main(string[] args)
     {
-        System.Console.WriteLine("wellcome to Address Book Program ");
-        Contact person = new Contact();
-        Console.Write("First Name: ");
-        person.FirstName = Console.ReadLine();
-        AddressBook book = new AddressBook();
-        book.AddContact(person);
+        Console.WriteLine("Welcome to Address Book Program");
+
+        // Get person details from console
+        Person person = ConsoleUtility.GetPersonDetails();
+
+        // Create address book utility
+        AddressBookUtility addressBook = new AddressBookUtility();
+
+        // Add contact
+        addressBook.AddContact(person);
+        Console.Write("Enter First Name to edit: ");
+        string nameToEdit = Console.ReadLine();
+        addressBook.EditContact(nameToEdit);
+        Console.Write("Enter First Name to delete: ");
+        string nameToDelete = Console.ReadLine();
+        addressBook.DeleteContact(nameToDelete);
+
+
     }
-    
 }

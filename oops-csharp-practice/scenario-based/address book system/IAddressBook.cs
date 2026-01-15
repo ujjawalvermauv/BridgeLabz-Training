@@ -3,5 +3,7 @@ public interface IAddressBook
 {
     void AddContact(Contact contact);
     void EditContact(string firstName);
+    void DeleteContact(string firstName);
+
 
 }
