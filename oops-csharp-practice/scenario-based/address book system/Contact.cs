@@ -1,6 +1,6 @@
 using System;
 
-public class ContactPerson
+public class Contact
 {
     //uc1
     private string FirstName;

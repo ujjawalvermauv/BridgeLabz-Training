@@ -1,23 +1,14 @@
-using System;
-
+using system;
 class AddressBookMain
 {
-    static void Main(string[] args)
+    static void Main(string [] args)
     {
-        Console.WriteLine("Welcome to Address Book Program");
-
-        IAddressBook addressBook = new AddressBookUtility();
-
-        addressBook.AddContact();
-
-        Console.Write("Do you want to edit contact? (yes/no): ");
-        string choice = Console.ReadLine();
-
-        if (choice.ToLower() == "yes")
-        {
-            Console.Write("Enter First Name to Edit: ");
-            string name = Console.ReadLine();
-            addressBook.EditContact(name);
-        }
+        System.Console.WriteLine("wellcome to Address Book Program ");
+        Contact person = new Contact();
+        Console.Write("First Name: ");
+        person.FirstName = Console.ReadLine();
+        AddressBook book = new AddressBook();
+        book.AddContact(person);
     }
+    
 }

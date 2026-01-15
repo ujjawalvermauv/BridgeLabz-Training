@@ -1,7 +1,7 @@
 using System;
 public interface IAddressBook
 {
-    void AddContact();
+    void AddContact(Contact contact);
     void EditContact(string firstName);
 
 }
