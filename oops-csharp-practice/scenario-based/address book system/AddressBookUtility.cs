@@ -23,7 +23,7 @@ class AddressBookUtility : IAddressBook
             Console.WriteLine("Contact not found");
         }
     }
-    public void DeleteContact(string firstName){
+    public void DeleteContact(string firstName){ // for delete
     if (storedPerson != null && storedPerson.FirstName == firstName)
     {
         storedPerson = null;
@@ -34,4 +34,13 @@ class AddressBookUtility : IAddressBook
         Console.WriteLine("Contact not found");
     }
     }
+    class AddressBookUtility : IAddressBook{ // store multiple contact using list
+    private List<Person> persons = new List<Person>();
+
+    public void AddContact(Person person)
+    {
+        persons.Add(person);
+        Console.WriteLine("Contact added");
+    }
+}
 }
