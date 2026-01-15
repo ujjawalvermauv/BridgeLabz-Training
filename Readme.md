@@ -1,177 +1,506 @@
-# 📘 Learning Journey — C# & .NET
+🚀 BridgeLabz Training – OOPS C# Practice
+This repository contains my Object-Oriented Programming (OOPS) based C# practice work completed during the BridgeLabz Training Program.
+It builds upon the strong Core C# foundation developed earlier and focuses on classes, objects, methods, encapsulation, and real-world scenarios.
 
-Hello 👋  
-**From: Ujjawal**
+🏫 Training Overview
+Training Program: BridgeLabz – .NET Training
+Assigned Technology: C# / .NET
+Training Start Date: 16 December 2024
+Mode: Hands-on coding + scenario-based learning
+📌 Branch Context & Background
+🔹 16 December – 30 December 2025
+All Core C# concepts (basics, control flow, arrays, strings, methods, extras, and scenario-based logic) were implemented in the
+core-csharp-practice branch.
 
-This repository documents my **daily learning progress** in **C# and .NET**, covering concepts, hands-on programs, and scenario-based problem solving.
+🔹 From 31 December 2025 onwards, this new branch
+oops-csharp-practice
+is dedicated exclusively to:
 
----
+Object-Oriented Programming
+Class-based design
+Real-world system modeling
+Scenario-driven applications using OOPS
+This README continues the training timeline seamlessly, while clearly separating Core C# and OOPS C# work.
 
-## 📅 Learning Log
+📅 Training Timeline & Work Progress
+🟢 31 December 2025 – OOPS with Scenario-Based Programming
+Started working on Object-Oriented Programming concepts in C# by converting real-world problem statements into class-based systems.
 
-### 🔹 18 December
+The focus of this day was:
 
-- Installed **.NET 8 (latest version)**
-- Learned the **basics of C#**
-- Studied **IL (Intermediate Language)** and **MSI**
-- Explored the **history and evolution of C#**
-- Understood the difference between a **compiler and an interpreter**
-- Implemented **10 C# programs**
-- Learned **basic Git & GitHub commands**
+Understanding classes & objects
+Constructor usage
+Fields & methods
+Method-driven logic
+User interaction via console
+Clean and readable OOPS structure
+📁 Folder Structure Used
+oops-csharp-practice/scenario-based
 
----
+Each file represents a standalone real-world scenario, implemented using proper OOPS principles.
 
-### 🔹 19 December
+🧠 Concepts Strengthened
+Class & object creation
+Constructors with parameters
+Instance variables (fields)
+Method encapsulation
+Reusability & modularity
+Input validation
+Preventing logical errors (edge cases)
+Real-life system modeling using OOPS
+🧪 Scenario-Based OOPS Programs Implemented
+🔢 MathUtility.cs – Mathematical Utility Class
+A reusable utility class designed to perform common mathematical operations using separate methods.
 
-- Difference between **C# and Java**
-- **Data types** in C#
-- **Operators** in C#
-- **Primitive and Non-Primitive** data types
-- **MSIL (Microsoft Intermediate Language)** and **CIL (Common Intermediate Language)**
-- **.NET architecture**
-- Learned about **Heap and Stack memory**
-- Studied **Static memory**
-- Completed **16 C# programs**
+🧾 Invoice.cs – Invoice Generator for Freelancers
+A string-focused, real-world invoice generator designed for freelancers.
 
----
+🏦 BankAccount.cs – Bank Account Manager
+A complete banking system simulation implemented using classes and objects.
 
-### 🔹 22 December
+✅ Status (31 December)
+✔ All OOPS scenario-based programs compiled successfully
+✔ Logic tested with multiple inputs
+✔ Clean formatting & spacing maintained
+✔ No unnecessary built-in shortcuts used
+✔ Written using C# 5 compatible syntax
+🎯 Updated Training Progress Summary
+✔ Core Programming Elements (Branch: core-csharp-practice)
+✔ Control Flow (Level 1–3)
+✔ Arrays (Level 1–2)
+✔ Strings
+✔ Methods (Level 1–3)
+✔ Extras (Built-ins & Modular Logic)
+✔ Scenario-Based Programming (Core C#)
+✔ OOPS – Classes & Objects (Scenario-Based)
+🚀 Next Goals
+Deep dive into OOPS principles
+Encapsulation
+Inheritance
+Polymorphism
+Abstraction
+Work with Collections & Generics
+Start DSA-oriented problem solving in C#
+Build mini console-based projects using OOPS
+💡 This branch marks the transition from procedural thinking to full object-oriented design, laying the foundation for advanced .NET development.
 
-- Control Flow Statements
-  - `if-else`
-  - `switch`
-  - `while`
-  - `for`
-  - `do-while`
-- Completed **all three levels** of control flow practice
+🟢 1 January 2026 – OOPS-Based Scenario Programming (User Interaction & Flow Control)
+Continued strengthening Object-Oriented Programming in C# by building a menu-driven, interactive real-world system using classes, objects, arrays, and methods.
 
----
+The emphasis of this day was on:
 
-### 🔹 23 December
+Applying OOPS concepts with continuous user interaction
+Designing loop-driven workflows inside class methods
+Managing state (ordered items) within a system
+Providing clean exit summaries instead of abrupt termination
+Maintaining consistent coding style aligned with earlier work
+🧪 Scenario-Based OOPS Program Implemented (1 January)
+☕ Cafeteria.cs – Cafeteria Menu Ordering System
+A complete menu-ordering console application for a campus cafeteria, implemented using OOPS principles.
 
-- **Arrays**
-  - 1D Arrays
-  - 2D Arrays
-- Revision started
-- Completed **Level 1 array problems**
-- Started **LeetCode practice**
+🚀 Momentum Status: Strong and consistent
+➡️ Ready to move into advanced OOPS principles, multi-class interaction, and scalable console-based systems.
 
----
+🟢 2 January 2026 – Loop-Driven OOPS Scenarios & Conditional Logic
+On this day, the focus shifted towards strengthening loop control, condition-based decision making, and real-world flow simulation using OOPS-driven console applications.
 
-### 🔹 24 December
+🧠 Concepts Practiced & Reinforced (2 January)
+While-loop based execution
+Accumulator variables (running totals)
+Conditional exits from loops
+Modulus operator usage
+Input validation with continue
+Real-world scenario modeling using OOPS
+Clean user interaction without abrupt exits
+🧪 Scenario-Based OOPS Programs Implemented (2 January)
+🚌 BusRoute.cs – Bus Route Distance Tracker
+A bus journey simulation system that tracks total distance traveled across multiple stops.
 
-- **C# Methods**
+🎉 LuckyDraw.cs – Festival Lucky Draw System
+A Diwali mela lucky draw simulation where each visitor draws a number to test their luck.
 
----
+Winning Rule:
 
-### 🔹 26 December
+If the number is divisible by both 3 and 5, the visitor wins a gift 🎁
+✅ Status (2 January)
+✔ Both programs compiled successfully
+✔ Executed with multiple test cases
+✔ Loop & condition logic verified
+✔ Clean code formatting maintained
+✔ No hard-coded exits
+✔ Written using C# 5 compatible syntax
+✔ Changes committed to Git repository
+🎯 Updated Training Progress Summary
+✔ Core Programming Elements (core-csharp-practice)
+✔ Control Flow (Level 1–3)
+✔ Arrays (Level 1–2)
+✔ Strings
+✔ Methods (Level 1–3)
+✔ Extras (Built-ins & Modular Logic)
+✔ Scenario-Based Programming (Core C#)
+✔ OOPS – Classes & Objects
+✔ Loop-Driven OOPS Scenarios
+✔ Conditional Logic in Real-World Systems
+🚀 Learning Trajectory: Consistent & progressive
+➡️ Next focus areas include multi-class interaction, inheritance, and advanced OOPS design patterns.
 
-- **C# Strings**
-- **Snake & Ladder Game** (Multiple Players | .NET 6+)
+🟢 3 January 2026 – Classes, Objects & Constructors (Core OOPS Foundations)
+On this day, the focus was on solidifying the fundamentals of Object-Oriented Programming by deeply practicing classes, objects, and constructors through multiple real-world inspired problems.
 
----
+The emphasis was on:
 
-### 🔹 27 December
+Understanding object creation
+Default, parameterized, and copy constructors
+Constructor chaining
+Encapsulating behavior inside classes
+Designing small, focused systems per problem
+🧪 OOPS Practice Problems Implemented (3 January)
+📘 Book Class
+Attributes: title, author, price
+Implemented default and parameterized constructors
+⚪ Circle Class
+Attribute: radius
+Used constructor chaining to initialize values using both default and user input
+👤 Person Class (Copy Constructor)
+Implemented a copy constructor to clone another Person object
+🏨 Hotel Booking System
+Class: HotelBooking
+Attributes: guestName, roomType, nights
+Implemented:
+Default constructor
+Parameterized constructor
+Copy constructor
+📚 Library Book System
+Class: Book
+Attributes: title, author, price, availability
+Method:
+BorrowBook() to manage book availability
+🚗 Car Rental System
+Class: CarRental
+Attributes: customerName, carModel, rentalDays
+Constructors used to initialize rentals
+Total rental cost calculated through class logic
+✅ Status (3 January)
+✔ All constructor-based programs compiled successfully
+✔ Output verified for multiple scenarios
+✔ Constructor flow clearly demonstrated
+✔ Proper folder segregation maintained
+✔ Code committed to repository
+🟢 4 January 2026 – Instance Members, Class Members, Access Modifiers & Inheritance
+This day marked a major leap in OOPS understanding, covering:
 
-- Completed remaining work
-- Worked on **new problem statements**
+Instance vs Class variables and methods
+Access modifiers
+Inheritance (single, multilevel, hierarchical, hybrid)
+Best practices for inheritance in C#
+🔹 Part 1: Instance vs Class Variables & Methods
+🧪 Problems Implemented
+🛒 Product Inventory
+Instance Variables: productName, price
+Class Variable: totalProducts
+Methods:
+DisplayProductDetails() (instance)
+DisplayTotalProducts() (class)
+🎓 Online Course Management
+Instance Variables: courseName, duration, fee
+Class Variable: instituteName
+Methods:
+DisplayCourseDetails() (instance)
+UpdateInstituteName() (class)
+🚘 Vehicle Registration System
+Instance Variables: ownerName, vehicleType
+Class Variable: registrationFee
+Methods:
+DisplayVehicleDetails() (instance)
+UpdateRegistrationFee() (class)
+🔹 Part 2: Access Modifiers
+🧪 Problems Implemented
+🏫 University Management System
+rollNumber → public
+name → protected
+CGPA → private
+Used public methods to access & modify CGPA
+Subclass: PostgraduateStudent to demonstrate protected access
+📖 Book Library System
+ISBN → public
+title → protected
+author → private
+Getter & setter for author
+Subclass: EBook to demonstrate access control
+🏦 Bank Account Management
+accountNumber → public
+accountHolder → protected
+balance → private
+Controlled access using public methods
+Subclass: SavingsAccount
+🧑‍💼 Employee Records
+employeeID → public
+department → protected
+salary → private
+Salary updated via public method
+Subclass: Manager
+🔹 Part 3: Inheritance (Complete Coverage)
+🐾 Animal Hierarchy
+Superclass: Animal
+Subclasses: Dog, Cat, Bird
+Method overriding of MakeSound()
+Demonstrated polymorphism
+🏢 Employee Management System
+Base class: Employee
+Subclasses:
+Manager (TeamSize)
+Developer (ProgrammingLanguage)
+Intern (InternshipDuration)
+Overridden DisplayDetails() method
+🚙 Vehicle & Transport System
+Superclass: Vehicle
+Subclasses: Car, Truck, Motorcycle
+Demonstrated runtime polymorphism using Vehicle[]
+📚 Single Inheritance
+Book → Author
+Device → Thermostat
+🧾 Multilevel Inheritance
+Order → ShippedOrder → DeliveredOrder
+Course → OnlineCourse → PaidOnlineCourse
+🏦 Hierarchical Inheritance
+BankAccount → Savings / Checking / FixedDeposit
+Person → Teacher / Student / Staff
+🔀 Hybrid Inheritance (Using Interfaces)
+Person + Worker → Chef / Waiter
+Vehicle + Refuelable → PetrolVehicle
+✅ Status (4 January)
+✔ All instance, access modifier & inheritance programs compiled
+✔ Concepts tested with multiple scenarios
+✔ Folder-wise organization maintained
+✔ Followed C# best practices
+✔ Large structured commit pushed to repository
+🚀 Overall Progress: Strong conceptual clarity in OOPS
+➡️ Ready for polymorphism-heavy designs, abstraction, interfaces, and design-pattern-oriented problems
 
----
+🟢 5 January 2026 – Advanced OOPS: Abstraction, Interfaces & Polymorphism
+This day marked a major step forward into advanced Object-Oriented Programming design, focusing on
+abstraction, interfaces, inheritance, encapsulation, and runtime polymorphism through real-world systems.
 
-### 🔹 28 December
+The emphasis was on:
 
-- Solved **new scenario-based problems**
+Designing multi-class architectures
+Separating responsibilities across files
+Applying industry-style OOPS patterns
+Building menu-driven, extensible systems
+🧠 Concepts Practiced & Reinforced (5 January)
+Abstract classes for shared structure
+Interfaces for defining contracts
+Encapsulation using private fields & public properties
+Inheritance with specialization
+Runtime polymorphism using base references
+Interface-based behavior checks
+Clean file separation per responsibility
+Console-based menu-driven execution
+🧪 OOPS Systems Implemented (5 January)
+🏥 Hospital Patient Management System
+A complete hospital workflow simulation implemented using core OOPS pillars.
 
----
+Design Highlights:
 
-### 🔹 29 December
+Abstract Class: Patient
+Derived Classes:
+InPatient
+OutPatient
+Interface:
+IPayable
+Supporting Classes:
+Doctor
+Bill
+Key Learnings:
 
-- **Object-Oriented Programming Fundamentals**
+Abstract method implementation
+Polymorphic billing logic
+Interface-driven payment handling
+Clean separation of medical and billing logic
+🚗 Vehicle Rental Application
+A vehicle rental system designed to demonstrate inheritance + interface-based polymorphism.
 
-#### String Scenarios
+Design Highlights:
 
-- **Sentence Formatter**  
-  Auto-correct spacing and capitalize the first letter of each sentence
+Base Class: Vehicle
+Derived Classes:
+Bike
+Car
+Truck
+Interface:
+IRentable
+Supporting Class:
+Customer
+Key Learnings:
 
-- **Paragraph Analyzer**  
-  Program to analyze a given paragraph
+Protected fields usage
+Dynamic rent calculation
+Polymorphic processing of vehicles
+✅ Status (5 January)
+✔ Advanced OOPS concepts implemented successfully
+✔ Multi-file architecture maintained
+✔ Code compiled and tested
+✔ Clean formatting & naming conventions followed
+✔ Written using C# 5 compatible syntax
+🟢 6 January 2026 – Polymorphism with Interfaces & Real-World Scenarios
+Focused on strengthening interface-based polymorphism and array-driven object management using real-world scenarios.
 
-#### Array Scenarios
+🧠 Concepts Practiced (6 January)
+Interface implementation across multiple classes
+Polymorphic method invocation
+Array-based object storage
+Menu-driven execution
+Clean abstraction without unnecessary inheritance depth
+🧪 Scenario-Based Programs Implemented (6 January)
+🐦 Bird Sanctuary Management System
+A wildlife conservation system showcasing pure interface-based polymorphism.
 
-- **Temperature Analyzer**  
-  Analyze a week’s hourly temperature data using a 2D array
+Design Highlights:
 
-- **Student Test Scores Manager**  
-  Store scores, calculate average, and analyze results
+Base Class: Bird
+Interfaces:
+IFlyable
+ISwimmable
+Implementations:
+Eagle, Sparrow → IFlyable
+Duck, Penguin → ISwimmable
+Seagull → IFlyable + ISwimmable
+Key Learnings:
 
----
+Multiple interface implementation
+Behavior-based method invocation
+Runtime interface checking
+📞 Customer Service Call Log Manager
+A telecom-style call log tracking system implemented using arrays and string operations.
 
-### 🔹 30 December
+Features:
 
-- **C# Constructors**
-- **Instance vs Class Variables**
-- **Access Modifiers**
+Add call logs dynamically
+Search logs using keyword matching
+Filter logs by time range
+Menu-driven interaction
+✅ Status (6 January)
+✔ Interface-driven systems verified
+✔ Polymorphism tested at runtime
+✔ String & DateTime handling validated
+✔ Clean modular code structure maintained
+🟢 7 January 2026 – Employee Wage Computation (OOPS + Use Cases)
+This day focused on implementing the Employee Wage Computation Problem using
+incremental Use Cases (UC-1 to UC-6) following an industry-style iterative approach.
 
-#### Projects
+🧠 Concepts Practiced (7 January)
+Interface-based design (IEmployee)
+Incremental feature development
+Menu-driven execution
+Separation of logic into utility classes
+Handling multiple employees dynamically
+🧪 Program Implemented (7 January)
+👨‍💼 Employee Wage Computation System
+Use Cases Implemented:
 
-- **EduQuiz – Student Quiz Grader**  
-  Grading module for a 10-question quiz
+UC-1: Employee attendance
+UC-2: Daily wage calculation
+UC-3: Part-time employee logic
+UC-4: Wage for fixed working days
+UC-5: Wage for fixed working hours
+UC-6: Monthly wage computation
+Architecture:
 
-- **Library Management System**  
-  Book search and checkout system
+Interface: IEmployee
+Utility Class: EmployeeUtilityImpl
+Menu Handler: EmployeeMenu
+Main Execution Class
+✅ Status (7 January)
+✔ All use cases implemented successfully
+✔ Logic verified with multiple scenarios
+✔ Clean separation of concerns
+✔ Menu-driven flow tested
+🟢 8 January 2026 – Appliance Control & Fitness Tracking Systems
+This day emphasized interface-driven control systems and user-centric tracking applications.
 
----
+🧪 Scenario-Based Programs Implemented (8 January)
+🏠 Smart Home Automation System
+A modular appliance control system built using interfaces.
 
-### 🔹 31 December
+Design Highlights:
 
-- Keywords and Operators
-  - `this`
-  - `sealed`
-  - `static`
-  - `is` operator
+Base Class: Appliance
+Interface: IControllable
+Implementations:
+LightBulb
+Fan
+Ac
+Features:
 
-#### Method-Based Scenarios
+Turn ON/OFF appliances
+Menu-driven control
+Polymorphic appliance handling
+🏋️ Fitness Tracker System
+A user fitness tracking application focused on activity monitoring.
 
-- **Bank Account Manager**  
-  Deposit, withdraw, and balance check
+Design Highlights:
 
-- **Mathematical Utility Class**  
-  Factorial, Prime check, GCD, Fibonacci
+Interface: ITrackable
+Classes:
+UserProfile
+WorkOut
+Utility & Menu handlers
+Features:
 
-- **Invoice Generator for Freelancers**  
-  String parsing and total calculation
+Track workouts
+Display activity summary
+User-driven interaction flow
+✅ Status (8 January)
+✔ Interface-based control logic validated
+✔ Polymorphism tested across appliances
+✔ Clean modular structure followed
+🟢 9 January 2026 – ATM Dispenser & Scenario-Based System Design
+Focused on designing a real-world ATM system using interfaces, utilities, and menu-driven flow.
 
----
+🧪 Program Implemented (9 January)
+🏦 ATM Dispenser Logic System
+A complete ATM cash dispensing simulation.
 
-### 🔹 1 January
+Design Highlights:
 
-- **Object Modeling**
-- **Class Diagrams**
+Interface: IATM
+Utility Implementation: ATMUtilityImpl
+Menu Handler: ATMMenu
+Main Execution Class
+Features:
 
-#### Scenario-Based App
+Minimum note dispensing
+Dynamic denomination handling
+Scenario-based fallback logic
+Clean exit with transaction summary
+✅ Final Status (OOPS Branch)
+✔ Advanced OOPS concepts mastered
+✔ Interface & abstraction-based systems built
+✔ Real-world scenario modeling achieved
+✔ Menu-driven architecture consistently followed
+✔ Code maintained with clean structure & spacing
+✔ Written using C# 5 compatible syntax
+🚀 Overall Learning Outcome (OOPS Branch)
+Strong command over OOPS fundamentals
+Practical understanding of interfaces & abstraction
+Ability to design scalable console applications
+Confidence in multi-file, real-world system design
+➡️ Ready to integrate DSA + OOPS and move towards production-level problem solving
 
-- **Cafeteria Menu App**
-  - Store menu items in array
-  - Display menu with index
-  - Take user order by index
-
----
-
-## 🚀 Focus Areas
-
-- C# Fundamentals
-- Object-Oriented Programming
-- Arrays & Strings
-- Methods & Control Flow
-- Scenario-Based Problem Solving
-- Console Applications
-
----
-
-## 🎯 Goal
-
-To build a **strong foundation in C# and .NET** through consistent practice, real-world scenarios, and clean coding habits.
-
----
-
-📌 _This README will be updated as learning continues._
+About
+No description, website, or topics provided.
+Resources
+Readme
+Activity
+Stars
+0 stars
+Watchers
+0 watching
+Forks
+0 forks
+Report repository
+Releases
+No releases published
+Packages
+No packages published
+Footer
