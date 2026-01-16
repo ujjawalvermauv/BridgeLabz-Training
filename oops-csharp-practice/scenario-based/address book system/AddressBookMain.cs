@@ -61,6 +61,25 @@ class AddressBookMain
             }
         }
 
+        //uc 10 Ability to get number of contact persons i.e. count by City or State - Search Result
+        int count = 0;
+        Console.Write("Enter City: ");
+        string city = Console.ReadLine();
+        for (int i = 0; i < addressBooks.Count; i++)
+        {
+            AddressBook book = addressBooks[i];
+
+            for (int j = 0; j < book.Persons.Count; j++)
+            {
+                Person p = book.Persons[j];
+                if (p.City == city){
+                    count++;
+                }
+            }
+        }
+        Console.WriteLine("Total Persons in " + city + ": " + count);
+
+
 
 
 
