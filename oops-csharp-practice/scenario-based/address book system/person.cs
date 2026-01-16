@@ -15,4 +15,10 @@ class Person
     {
         return "Name: " + FirstName + " " + LastName +", Address: " + Address +", City: " + City +", State: " + State +", Zip: " + Zip +", Phone: " + Phone +", Email: " + Email;
     }
+    public override bool Equals(object obj){ //uc 7 overriding .equals to find same firstname
+    Person other = obj as Person;
+    if (other == null)
+        return false;
+    return this.FirstName == other.FirstName;}
+
 }
