@@ -2,12 +2,19 @@ using System;
 
 class AddressBookUtility : IAddressBook
 {
-    // Add single contact
-    public void AddContact(Person person)
+    // uc 6 duplicate first name not allowed
+    public void AddContact(Person person, AddressBook book){
+    foreach (Person p in book.Persons)
     {
-        Console.WriteLine("Contact added successfully");
-        Console.WriteLine(person); // Calls ToString()
+        if (p.FirstName.Equals(person.FirstName))
+        {
+            Console.WriteLine("Duplicate Contact Not Allowed");
+            return;
+        }
     }
+    book.Persons.Add(person);
+    Console.WriteLine("Contact Added Successfully");}
+
     public void EditContact(string firstName)
     {
         if (storedPerson != null && storedPerson.FirstName == firstName)
