@@ -44,6 +44,23 @@ class AddressBookMain
                 }
             }
         }
+        //uc 9 Ability to view Persons by City or State
+        Console.Write("Enter State: ");
+        string state = Console.ReadLine();
+
+        for (int i = 0; i < addressBooks.Count; i++)
+        {
+            AddressBook book = addressBooks[i];
+            for (int j = 0; j < book.Persons.Count; j++)
+            {
+                Person p = book.Persons[j];
+                if (p.State == state)
+                {
+                    Console.WriteLine(p);
+                }
+            }
+        }
+
 
 
 
