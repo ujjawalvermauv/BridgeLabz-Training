@@ -18,7 +18,7 @@ public class HistoryNode
         }
     }
 
-    public HistoryNode Prev   // 🔴 IMPORTANT (see next section)
+    public HistoryNode Prev   
     {
         get
         {
