@@ -55,9 +55,41 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
 
 ---
 
-## Day 2
+## Day 2 (03-08-2026)
 
-- Pending
+### Topics Covered
+
+- ER Diagram Extension
+- Rooms Table
+- Doctor_Room Relationship (Many-to-Many)
+- Indexing
+- Single Column Index
+- Composite Index
+- Covering Index
+- Query Execution Plan
+- Normalization
+  - 1NF
+  - 2NF
+  - 3NF
+- Patient_Phones Table
+
+### Assignments / Programs
+
+- Extended Health Clinic Database
+- Created Rooms Table
+- Implemented Doctor_Room Relationship
+- Created Patient_Phones Table
+- Created Single Column Index
+- Created Composite Index
+- Created Covering Index
+- Verified Normalization
+- Updated ER Diagram
+
+### Progress
+
+- ✅ Day 2 Completed
+
+---
 
 ## Day 3
 
@@ -71,12 +103,12 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
 
 ## Repository Structure
 
-```
+```text
 Refresher-Training
 │── README.md
 │
-├── Day-1
-├── Day-2
+├── day1-RDBMS
+├── day2-ER-Indexing-Normalization
 ├── Day-3
 └── Day-4
 ```
@@ -85,9 +117,10 @@ Refresher-Training
 
 ## Git Commit History
 
-| Date       | Work                                     |
-| ---------- | ---------------------------------------- |
-| 31-07-2026 | Day 1 - DBMS Fundamentals & RDBMS Basics |
+| Date       | Work                                         |
+| ---------- | -------------------------------------------- |
+| 31-07-2026 | Day 1 - DBMS Fundamentals & RDBMS Basics     |
+| 03-08-2026 | Day 2 - ER Diagram, Indexing & Normalization |
 
 ---
 
