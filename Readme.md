@@ -91,9 +91,45 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
 
 ---
 
-## Day 3
+## Day 3 (04-08-2026)
 
-- Pending
+### Topics Covered
+
+- SQL Joins
+  - Inner Join
+  - Left Join
+  - Right Join
+  - Full Outer Join
+  - Cross Join
+  - Self Join
+- Stored Procedures
+  - INSERT Stored Procedure
+  - UPDATE Stored Procedure
+  - DELETE Stored Procedure
+- Triggers
+  - AFTER INSERT Trigger
+  - AFTER UPDATE Trigger
+  - AFTER DELETE Trigger
+- Audit Table
+- Logical Tables (`inserted`, `deleted`)
+
+### Assignments / Programs
+
+- Created Patient_Audit Table
+- Implemented AFTER INSERT Trigger
+- Implemented AFTER UPDATE Trigger
+- Implemented AFTER DELETE Trigger
+- Tested Trigger Operations
+- Created Doctor INSERT Stored Procedure
+- Created Doctor UPDATE Stored Procedure
+- Created Doctor DELETE Stored Procedure
+- Executed CRUD Operations using Stored Procedures
+
+### Progress
+
+- ✅ Day 3 Completed
+
+---
 
 ## Day 4
 
@@ -109,18 +145,19 @@ Refresher-Training
 │
 ├── day1-RDBMS
 ├── day2-ER-Indexing-Normalization
-├── Day-3
-└── Day-4
+├── Day3-Store-Joins-Trigger
+└── Day4
 ```
 
 ---
 
 ## Git Commit History
 
-| Date       | Work                                         |
-| ---------- | -------------------------------------------- |
-| 31-07-2026 | Day 1 - DBMS Fundamentals & RDBMS Basics     |
-| 03-08-2026 | Day 2 - ER Diagram, Indexing & Normalization |
+| Date       | Work                                            |
+| ---------- | ----------------------------------------------- |
+| 31-07-2026 | Day 1 - DBMS Fundamentals & RDBMS Basics        |
+| 03-08-2026 | Day 2 - ER Diagram, Indexing & Normalization    |
+| 04-08-2026 | Day 3 - SQL Joins, Stored Procedures & Triggers |
 
 ---
 
