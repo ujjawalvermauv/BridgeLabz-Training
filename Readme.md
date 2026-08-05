@@ -131,22 +131,6 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
 
 ---
 
-## Day 4
-
-- Pending
-
----
-
-## Repository Structure
-
-```text
-Refresher-Training
-│── README.md
-│
-├── day1-RDBMS
-├── day2-ER-Indexing-Normalization
-├── Day3-Store-Joins-Trigger
-└── day4-HealthClinicApp
 ## Day 4 (05-08-2026)
 
 ### Topics Covered
@@ -173,26 +157,43 @@ Refresher-Training
 
 - Patient Management (CRUD)
 - Doctor Management (CRUD using Stored Procedures)
-- Appointment Management
-- Room Management
-- Audit Log using Triggers
-- Connected Architecture
-- Disconnected Architecture
+- Appointment Management (CRUD)
+- Room Management (CRUD)
+- Connected Architecture using SqlDataReader
+- Disconnected Architecture using SqlDataAdapter and DataTable
+- Stored Procedures
+- SQL Queries
+- Trigger Integration
+- Exception Handling
+- Foreign Key Relationships
 
 ### Progress
 
 - ✅ Day 4 Completed
 
+---
+
+## Repository Structure
+
+```text
+Refresher-Training
+│── README.md
+│
+├── day1-RDBMS
+├── day2-ER-Indexing-Normalization
+├── Day3-Store-Joins-Trigger
+└── day4-HealthClinicApp
+```
 
 ---
 
 ## Git Commit History
 
-| Date       | Work                                                         |
-| ---------- | ------------------------------------------------------------ |
-| 31-07-2026 | Day 1 - DBMS Fundamentals & RDBMS Basics                     |
-| 03-08-2026 | Day 2 - ER Diagram, Indexing & Normalization                 |
-| 04-08-2026 | Day 3 - SQL Joins, Stored Procedures & Triggers              |
+| Date       | Work                                                                                    |
+| ---------- | --------------------------------------------------------------------------------------- |
+| 31-07-2026 | Day 1 - DBMS Fundamentals & RDBMS Basics                                                |
+| 03-08-2026 | Day 2 - ER Diagram, Indexing & Normalization                                            |
+| 04-08-2026 | Day 3 - SQL Joins, Stored Procedures & Triggers                                         |
 | 05-08-2026 | Day 4 - ADO.NET Health Clinic Management System (Connected & Disconnected Architecture) |
 
 ---
@@ -200,4 +201,3 @@ Refresher-Training
 ### Author
 
 **Ujjawal Verma**
-```
