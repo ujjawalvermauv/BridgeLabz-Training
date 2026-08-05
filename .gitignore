@@ -1,0 +1,21 @@
+# Build folders
+bin/
+obj/
+
+# Visual Studio
+.vs/
+
+# User files
+*.user
+*.suo
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Existing
+core-csharp-practice
+bin/
+obj/

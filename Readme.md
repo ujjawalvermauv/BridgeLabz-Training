@@ -146,21 +146,58 @@ Refresher-Training
 ├── day1-RDBMS
 ├── day2-ER-Indexing-Normalization
 ├── Day3-Store-Joins-Trigger
-└── Day4
-```
+└── day4-HealthClinicApp
+## Day 4 (05-08-2026)
+
+### Topics Covered
+
+- ADO.NET
+- Connected Architecture
+- Disconnected Architecture
+- SqlConnection
+- SqlCommand
+- SqlDataReader
+- SqlDataAdapter
+- DataTable
+- CRUD Operations
+- Parameterized Queries
+- Exception Handling
+- Constructor
+- SQL Server Integration
+
+### Project
+
+**Health Clinic Management System**
+
+### Features
+
+- Patient Management (CRUD)
+- Doctor Management (CRUD using Stored Procedures)
+- Appointment Management
+- Room Management
+- Audit Log using Triggers
+- Connected Architecture
+- Disconnected Architecture
+
+### Progress
+
+- ✅ Day 4 Completed
+
 
 ---
 
 ## Git Commit History
 
-| Date       | Work                                            |
-| ---------- | ----------------------------------------------- |
-| 31-07-2026 | Day 1 - DBMS Fundamentals & RDBMS Basics        |
-| 03-08-2026 | Day 2 - ER Diagram, Indexing & Normalization    |
-| 04-08-2026 | Day 3 - SQL Joins, Stored Procedures & Triggers |
+| Date       | Work                                                         |
+| ---------- | ------------------------------------------------------------ |
+| 31-07-2026 | Day 1 - DBMS Fundamentals & RDBMS Basics                     |
+| 03-08-2026 | Day 2 - ER Diagram, Indexing & Normalization                 |
+| 04-08-2026 | Day 3 - SQL Joins, Stored Procedures & Triggers              |
+| 05-08-2026 | Day 4 - ADO.NET Health Clinic Management System (Connected & Disconnected Architecture) |
 
 ---
 
 ### Author
 
 **Ujjawal Verma**
+```
