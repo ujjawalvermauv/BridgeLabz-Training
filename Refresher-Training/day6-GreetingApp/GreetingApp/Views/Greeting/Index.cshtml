@@ -1,0 +1,33 @@
+﻿@model GreetingApp.Models.Greeting
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Greeting App</title>
+</head>
+
+<body>
+
+    <h1>Greeting App</h1>
+
+    <form asp-controller="Greeting" asp-action="Index" method="post">
+
+        <label>Enter your name:</label>
+
+        <input asp-for="Name" />
+
+        <button type="submit">
+            Greet
+        </button>
+
+    </form>
+
+    @if (!string.IsNullOrEmpty(Model?.Message))
+    {
+        <h2>@Model.Message</h2>
+    }
+
+</body>
+
+</html>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\91914\\Desktop\\BridgeLabz-Training\\Refresher-Training\\day4-HealthClinicApp\\HealthClinicApp\\HealthClinicApp.csproj": {}
+    "C:\\Users\\91914\\Desktop\\BridgeLabz-Training\\Refresher-Training\\day4-HealthClinicApp\\HealthClinicApp\\HealthClinicApp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\91914\\Desktop\\BridgeLabz-Training\\Refresher-Training\\day4-HealthClinicApp\\HealthClinicApp\\HealthClinicApp.csproj": {
+    "C:\\Users\\91914\\Desktop\\BridgeLabz-Training\\Refresher-Training\\day4-HealthClinicApp\\HealthClinicApp\\HealthClinicApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\91914\\Desktop\\BridgeLabz-Training\\Refresher-Training\\day4-HealthClinicApp\\HealthClinicApp\\HealthClinicApp.csproj",
+        "projectUniqueName": "C:\\Users\\91914\\Desktop\\BridgeLabz-Training\\Refresher-Training\\day4-HealthClinicApp\\HealthClinicApp\\HealthClinicApp.csproj",
         "projectName": "HealthClinicApp",
-        "projectPath": "c:\\Users\\91914\\Desktop\\BridgeLabz-Training\\Refresher-Training\\day4-HealthClinicApp\\HealthClinicApp\\HealthClinicApp.csproj",
+        "projectPath": "C:\\Users\\91914\\Desktop\\BridgeLabz-Training\\Refresher-Training\\day4-HealthClinicApp\\HealthClinicApp\\HealthClinicApp.csproj",
         "packagesPath": "C:\\Users\\91914\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\91914\\Desktop\\BridgeLabz-Training\\Refresher-Training\\day4-HealthClinicApp\\HealthClinicApp\\obj\\",
+        "outputPath": "C:\\Users\\91914\\Desktop\\BridgeLabz-Training\\Refresher-Training\\day4-HealthClinicApp\\HealthClinicApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\91914\\AppData\\Roaming\\NuGet\\NuGet.Config"
