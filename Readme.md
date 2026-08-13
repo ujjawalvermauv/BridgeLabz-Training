@@ -10,7 +10,7 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
 
 # Day-wise Progress
 
-## Day 1 (31-07-2026)
+## Day 1 — 31-07-2026
 
 ### Topics Covered
 
@@ -50,13 +50,17 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
 - Join Queries Practice
 - Pivot Table Practice
 
+### Project
+
+**RDBMS / SQL Fundamentals**
+
 ### Progress
 
 - ✅ Day 1 Completed
 
 ---
 
-## Day 2 (03-08-2026)
+## Day 2 — 03-08-2026
 
 ### Topics Covered
 
@@ -89,13 +93,17 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
 - Verified Normalization
 - Updated ER Diagram
 
+### Project
+
+**ER Diagram, Indexing & Normalization**
+
 ### Progress
 
 - ✅ Day 2 Completed
 
 ---
 
-## Day 3 (04-08-2026)
+## Day 3 — 04-08-2026
 
 ### Topics Covered
 
@@ -134,13 +142,17 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
 - Created Doctor DELETE Stored Procedure
 - Executed CRUD Operations using Stored Procedures
 
+### Project
+
+**SQL Joins, Stored Procedures & Triggers**
+
 ### Progress
 
 - ✅ Day 3 Completed
 
 ---
 
-## Day 4 (05-08-2026)
+## Day 4 — 05-08-2026
 
 ### Topics Covered
 
@@ -155,7 +167,7 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
 - CRUD Operations
 - Parameterized Queries
 - Exception Handling
-- Constructor
+- Constructors
 - SQL Server Integration
 
 ### Project
@@ -182,7 +194,7 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
 
 ---
 
-## Day 5 (06-08-2026)
+## Day 5 — 06-08-2026
 
 ### Topics Covered
 
@@ -231,7 +243,7 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
 
 ---
 
-## Day 6 (07-08-2026)
+## Day 6 — 07-08-2026
 
 ### Topics Covered
 
@@ -277,7 +289,7 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
 
 ---
 
-## Day 7 (10-08-2026)
+## Day 7 — 10-08-2026
 
 ### Topics Covered
 
@@ -294,7 +306,6 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
 - Request Body
 - JSON Response
 - Dependency Injection
-- Configuration
 - SQL Server Integration
 - ADO.NET
 - Repository Pattern
@@ -325,7 +336,7 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
 
 ---
 
-## Day 8 (13-08-2026)
+## Day 8 — 11-08-2026
 
 ### Topics Covered
 
@@ -408,7 +419,7 @@ Day8-ContactManagement
 
 ---
 
-## Day 9 (13-08-2026)
+## Day 9 — 12-08-2026
 
 ### Topics Covered
 
@@ -463,30 +474,12 @@ SQL Server
 - Implemented POST Contact
 - Implemented PUT Contact
 - Implemented DELETE Contact
-- Used LINQ for data operations
+- Used LINQ for database operations
 - Used `DbSet<Contact>`
 - Used `SaveChanges()`
 - Created EF Core Migration
 - Applied Migration to SQL Server
 - Tested APIs using Swagger
-
-### Entity Framework Core Flow
-
-```text
-Contact Model
-     ↓
-DbSet<Contact>
-     ↓
-ContactDbContext
-     ↓
-Repository
-     ↓
-Service
-     ↓
-Controller
-     ↓
-API
-```
 
 ### Project Structure
 
@@ -525,6 +518,112 @@ Day9-EntityContact
 
 ---
 
+## Day 10 — 13-08-2026
+
+### Topics Covered
+
+- ASP.NET Core Web API
+- Entity Framework Core
+- `DbContext`
+- `DbSet`
+- Repository Pattern
+- Service Layer
+- Dependency Injection
+- LINQ
+- SQL Server Integration
+- EF Core Migrations
+- CRUD Operations
+- Swagger / OpenAPI
+- Layered Architecture
+- Separation of Concerns
+
+### Project
+
+**Address Book Web API**
+
+### Address Book Entity
+
+- Id
+- First Name
+- Last Name
+- Address
+- City
+- State
+- Zip
+- Phone
+- Email
+
+### Architecture
+
+```text
+Controller
+    ↓
+Service
+    ↓
+Repository
+    ↓
+DbContext
+    ↓
+Entity Framework Core
+    ↓
+SQL Server
+```
+
+### Features
+
+- Created Address Book Web API
+- Created Address Entry Model
+- Created `AddressBookDbContext`
+- Configured SQL Server using Entity Framework Core
+- Implemented Repository Pattern
+- Implemented Service Layer
+- Implemented Dependency Injection
+- Implemented GET All Address Entries
+- Implemented GET Address Entry By ID
+- Implemented POST Address Entry
+- Implemented PUT Address Entry
+- Implemented DELETE Address Entry
+- Used LINQ for database operations
+- Used `DbSet<AddressEntry>`
+- Used `SaveChanges()`
+- Created EF Core Migration
+- Created Address Book Database
+- Tested APIs using Swagger
+
+### Project Structure
+
+```text
+Day10-AddressBookAPI
+│
+├── Controllers
+│   └── AddressController.cs
+│
+├── Data
+│   └── AddressBookDbContext.cs
+│
+├── Models
+│   └── AddressEntry.cs
+│
+├── Repositories
+│   ├── IAddressRepository.cs
+│   └── AddressRepository.cs
+│
+├── Services
+│   ├── IAddressService.cs
+│   └── AddressService.cs
+│
+├── Migrations
+│
+├── Program.cs
+└── appsettings.json
+```
+
+### Progress
+
+- ✅ Day 10 Completed
+
+---
+
 # Repository Structure
 
 ```text
@@ -540,7 +639,8 @@ Refresher-Training
 ├── day6-GreetingApp
 ├── day7-contactapp
 ├── Day8-ContactManagement
-└── Day9-EntityContact
+├── Day9-EntityContact
+└── Day10-AddressBookAPI
 ```
 
 ---
@@ -577,7 +677,26 @@ Service Layer
 Entity Framework Core
  ↓
 EF Core Migrations
+ ↓
+Layered Web API Architecture
 ```
+
+---
+
+# Day-wise Progress Summary
+
+| Day    | Date       | Project                                 | Status |
+| ------ | ---------- | --------------------------------------- | ------ |
+| Day 1  | 31-07-2026 | RDBMS / SQL Fundamentals                | ✅     |
+| Day 2  | 03-08-2026 | ER Diagram, Indexing & Normalization    | ✅     |
+| Day 3  | 04-08-2026 | SQL Joins, Stored Procedures & Triggers | ✅     |
+| Day 4  | 05-08-2026 | Health Clinic Management System         | ✅     |
+| Day 5  | 06-08-2026 | Greeting Web API                        | ✅     |
+| Day 6  | 07-08-2026 | Greeting MVC Application                | ✅     |
+| Day 7  | 10-08-2026 | Contact App - Minimal API               | ✅     |
+| Day 8  | 11-08-2026 | Contact Management Web API              | ✅     |
+| Day 9  | 12-08-2026 | Entity Contact Web API                  | ✅     |
+| Day 10 | 13-08-2026 | Address Book Web API                    | ✅     |
 
 ---
 
@@ -592,24 +711,25 @@ EF Core Migrations
 | 06-08-2026 | Day 5 - ASP.NET Core Web API - Greeting Project  |
 | 07-08-2026 | Day 6 - ASP.NET Core MVC - Greeting Application  |
 | 10-08-2026 | Day 7 - ASP.NET Core Minimal API - Contact App   |
-| 13-08-2026 | Day 8 - Contact Management Web API using ADO.NET |
-| 13-08-2026 | Day 9 - Entity Framework Core Contact API        |
+| 11-08-2026 | Day 8 - Contact Management Web API using ADO.NET |
+| 12-08-2026 | Day 9 - Entity Framework Core Contact API        |
+| 13-08-2026 | Day 10 - Address Book Web API                    |
 
 ---
 
 # Current Progress
 
 ```text
-Day 1  ✅
-Day 2  ✅
-Day 3  ✅
-Day 4  ✅
-Day 5  ✅
-Day 6  ✅
-Day 7  ✅
-Day 8  ✅
-Day 9  ✅
-Day 10 ⏳
+Day 1   ✅
+Day 2   ✅
+Day 3   ✅
+Day 4   ✅
+Day 5   ✅
+Day 6   ✅
+Day 7   ✅
+Day 8   ✅
+Day 9   ✅
+Day 10  ✅
 ```
 
 ---
