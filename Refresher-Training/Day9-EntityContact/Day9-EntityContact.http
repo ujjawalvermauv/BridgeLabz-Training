@@ -1,0 +1,6 @@
+@Day9_EntityContact_HostAddress = http://localhost:5098
+
+GET {{Day9_EntityContact_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
