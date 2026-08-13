@@ -29,7 +29,7 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
 - One-to-One Relationship
 - One-to-Many Relationship
 - Many-to-Many Relationship
-- Joins
+- SQL Joins
   - Inner Join
   - Left Join
   - Right Join
@@ -62,11 +62,13 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
 
 - ER Diagram Extension
 - Rooms Table
-- Doctor_Room Relationship (Many-to-Many)
+- Doctor_Room Relationship
+- Many-to-Many Relationship
 - Indexing
-- Single Column Index
-- Composite Index
-- Covering Index
+  - Single Column Index
+  - Composite Index
+  - Covering Index
+
 - Query Execution Plan
 - Normalization
   - 1NF
@@ -116,7 +118,9 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
   - AFTER DELETE Trigger
 
 - Audit Table
-- Logical Tables (`inserted`, `deleted`)
+- Logical Tables
+  - `inserted`
+  - `deleted`
 
 ### Assignments / Programs
 
@@ -273,35 +277,343 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
 
 ---
 
-## Repository Structure
+## Day 7 (10-08-2026)
+
+### Topics Covered
+
+- ASP.NET Core Minimal API
+- Minimal API Project Structure
+- Endpoints
+- HTTP Methods
+  - GET
+  - POST
+  - PUT
+  - DELETE
+
+- Route Parameters
+- Request Body
+- JSON Response
+- Dependency Injection
+- Configuration
+- SQL Server Integration
+- ADO.NET
+- Repository Pattern
+- CRUD Operations
+- Swagger / OpenAPI
+
+### Project
+
+**Contact App**
+
+### Features
+
+- Created ASP.NET Core Minimal API
+- Created Contact Model
+- Implemented Contact CRUD Operations
+- Implemented GET Endpoint
+- Implemented POST Endpoint
+- Implemented PUT Endpoint
+- Implemented DELETE Endpoint
+- Integrated SQL Server
+- Used ADO.NET
+- Used Parameterized Queries
+- Tested APIs using Swagger
+
+### Progress
+
+- ✅ Day 7 Completed
+
+---
+
+## Day 8 (13-08-2026)
+
+### Topics Covered
+
+- ASP.NET Core Web API
+- Repository Pattern
+- Service Layer
+- Dependency Injection
+- SQL Server Integration
+- ADO.NET
+- `SqlConnection`
+- `SqlCommand`
+- `SqlDataReader`
+- Parameterized Queries
+- CRUD Operations
+- Swagger / OpenAPI
+- Separation of Concerns
+
+### Project
+
+**Contact Management Web API**
+
+### Architecture
+
+```text
+Controller
+    ↓
+Service
+    ↓
+Repository
+    ↓
+ADO.NET
+    ↓
+SQL Server
+```
+
+### Features
+
+- Created Contact Management Web API
+- Created Contact Model
+- Created Repository Interface
+- Created Repository Implementation
+- Created Service Interface
+- Created Service Implementation
+- Implemented GET All Contacts
+- Implemented GET Contact By ID
+- Implemented POST Contact
+- Implemented PUT Contact
+- Implemented DELETE Contact
+- Used ADO.NET for database operations
+- Used Parameterized SQL Queries
+- Used Dependency Injection
+- Tested APIs using Swagger
+
+### Project Structure
+
+```text
+Day8-ContactManagement
+│
+├── Controllers
+│   └── ContactController.cs
+│
+├── Models
+│   └── Contact.cs
+│
+├── Repositories
+│   ├── IContactRepository.cs
+│   └── ContactRepository.cs
+│
+├── Services
+│   ├── IContactService.cs
+│   └── ContactService.cs
+│
+├── Program.cs
+└── appsettings.json
+```
+
+### Progress
+
+- ✅ Day 8 Completed
+
+---
+
+## Day 9 (13-08-2026)
+
+### Topics Covered
+
+- Entity Framework Core
+- ASP.NET Core Web API
+- `DbContext`
+- `DbSet`
+- Entity Models
+- Repository Pattern
+- Service Layer
+- Dependency Injection
+- LINQ
+- CRUD Operations using Entity Framework Core
+- SQL Server Integration
+- EF Core Migrations
+- Database Creation
+- `SaveChanges()`
+- Swagger / OpenAPI
+
+### Project
+
+**Entity Contact Web API**
+
+### Architecture
+
+```text
+Controller
+    ↓
+Service
+    ↓
+Repository
+    ↓
+DbContext
+    ↓
+Entity Framework Core
+    ↓
+SQL Server
+```
+
+### Features
+
+- Created ASP.NET Core Web API using Entity Framework Core
+- Created Contact Entity Model
+- Created `ContactDbContext`
+- Configured SQL Server using Entity Framework Core
+- Created Repository Interface
+- Created Repository Implementation
+- Created Service Interface
+- Created Service Implementation
+- Implemented GET All Contacts
+- Implemented GET Contact By ID
+- Implemented POST Contact
+- Implemented PUT Contact
+- Implemented DELETE Contact
+- Used LINQ for data operations
+- Used `DbSet<Contact>`
+- Used `SaveChanges()`
+- Created EF Core Migration
+- Applied Migration to SQL Server
+- Tested APIs using Swagger
+
+### Entity Framework Core Flow
+
+```text
+Contact Model
+     ↓
+DbSet<Contact>
+     ↓
+ContactDbContext
+     ↓
+Repository
+     ↓
+Service
+     ↓
+Controller
+     ↓
+API
+```
+
+### Project Structure
+
+```text
+Day9-EntityContact
+│
+├── Controllers
+│   └── ContactController.cs
+│
+├── Data
+│   └── ContactDbContext.cs
+│
+├── Models
+│   └── Contact.cs
+│
+├── Repositories
+│   ├── IContactRepository.cs
+│   └── ContactRepository.cs
+│
+├── Services
+│   ├── IContactService.cs
+│   └── ContactService.cs
+│
+├── Migrations
+│   ├── InitialCreate.cs
+│   ├── InitialCreate.Designer.cs
+│   └── ContactDbContextModelSnapshot.cs
+│
+├── Program.cs
+└── appsettings.json
+```
+
+### Progress
+
+- ✅ Day 9 Completed
+
+---
+
+# Repository Structure
 
 ```text
 Refresher-Training
-│── README.md
+│
+├── README.md
 │
 ├── day1-RDBMS
 ├── day2-ER-Indexing-Normalization
 ├── Day3-Store-Joins-Trigger
 ├── day4-HealthClinicApp
 ├── day5-WebAPI-Project
-└── day6-GreetingApp
+├── day6-GreetingApp
+├── day7-contactapp
+├── Day8-ContactManagement
+└── Day9-EntityContact
 ```
 
 ---
 
-## Git Commit History
+# Technology Progress
 
-| Date       | Work                                                                                    |
-| ---------- | --------------------------------------------------------------------------------------- |
-| 31-07-2026 | Day 1 - DBMS Fundamentals & RDBMS Basics                                                |
-| 03-08-2026 | Day 2 - ER Diagram, Indexing & Normalization                                            |
-| 04-08-2026 | Day 3 - SQL Joins, Stored Procedures & Triggers                                         |
-| 05-08-2026 | Day 4 - ADO.NET Health Clinic Management System (Connected & Disconnected Architecture) |
-| 06-08-2026 | Day 5 - ASP.NET Core Web API - Greeting Project                                         |
-| 07-08-2026 | Day 6 - ASP.NET Core MVC - Greeting Application                                         |
+```text
+SQL
+ ↓
+DBMS / RDBMS
+ ↓
+ER Diagram
+ ↓
+Normalization
+ ↓
+Indexing
+ ↓
+Stored Procedures
+ ↓
+Triggers
+ ↓
+ADO.NET
+ ↓
+ASP.NET Core Web API
+ ↓
+ASP.NET Core MVC
+ ↓
+Minimal API
+ ↓
+Repository Pattern
+ ↓
+Service Layer
+ ↓
+Entity Framework Core
+ ↓
+EF Core Migrations
+```
 
 ---
 
-### Author
+# Git Commit History
+
+| Date       | Work                                             |
+| ---------- | ------------------------------------------------ |
+| 31-07-2026 | Day 1 - DBMS Fundamentals & RDBMS Basics         |
+| 03-08-2026 | Day 2 - ER Diagram, Indexing & Normalization     |
+| 04-08-2026 | Day 3 - SQL Joins, Stored Procedures & Triggers  |
+| 05-08-2026 | Day 4 - ADO.NET Health Clinic Management System  |
+| 06-08-2026 | Day 5 - ASP.NET Core Web API - Greeting Project  |
+| 07-08-2026 | Day 6 - ASP.NET Core MVC - Greeting Application  |
+| 10-08-2026 | Day 7 - ASP.NET Core Minimal API - Contact App   |
+| 13-08-2026 | Day 8 - Contact Management Web API using ADO.NET |
+| 13-08-2026 | Day 9 - Entity Framework Core Contact API        |
+
+---
+
+# Current Progress
+
+```text
+Day 1  ✅
+Day 2  ✅
+Day 3  ✅
+Day 4  ✅
+Day 5  ✅
+Day 6  ✅
+Day 7  ✅
+Day 8  ✅
+Day 9  ✅
+Day 10 ⏳
+```
+
+---
+
+## Author
 
 **Ujjawal Verma**
