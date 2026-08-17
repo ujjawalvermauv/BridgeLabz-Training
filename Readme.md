@@ -749,8 +749,201 @@ Day11-AddressBook
 └── AddressBook.Service
 ├── Interfaces
 └── Services
-Progress
 ✅ Day 11 Completed
+
+Day 12 — 17-08-2026
+Topics Covered
+ASP.NET Core Web API
+
+Entity Framework Core
+
+Code-First Approach
+
+SQL Server Integration
+
+DbContext
+
+DbSet
+
+EF Core Migrations
+
+Layered Architecture
+
+Multiple Project Solution
+
+API Layer
+
+Models Layer
+
+Repository Layer
+
+Service Layer
+
+Dependency Injection
+
+Interfaces
+
+DTOs
+
+BCrypt Password Hashing
+
+User Registration
+
+User Login
+
+JWT Authentication
+
+JWT Token Generation
+
+[Authorize]
+
+Swagger / OpenAPI
+
+Swagger JWT Authorization
+
+Notes CRUD Operations
+
+User-Specific Data using JWT UserId
+
+Repository Pattern
+
+Service Layer
+
+Separation of Concerns
+
+Project
+FundooNotes Web API
+
+Architecture
+Fundoo.Api
+↓
+FundooNotes.Service
+↓
+FundooNotes.Repository
+↓
+FundooNotes.Models
+↓
+Entity Framework Core
+↓
+SQL Server
+Authentication Flow
+Register
+↓
+Password Hashing using BCrypt
+↓
+SQL Server
+
+Login
+↓
+Validate Email & Password
+↓
+Generate JWT Token
+↓
+Swagger / Client
+↓
+[Authorize]
+↓
+Notes APIs
+Features
+Created FundooNotes solution
+
+Created Fundoo.Api project
+
+Created FundooNotes.Models project
+
+Created FundooNotes.Repository project
+
+Created FundooNotes.Service project
+
+Implemented layered architecture
+
+Implemented Dependency Injection
+
+Created User and Note entities
+
+Created DTOs for registration and login
+
+Configured SQL Server using Entity Framework Core
+
+Created FundooDbContext
+
+Created EF Core migration
+
+Applied database migration
+
+Implemented User Registration
+
+Implemented BCrypt password hashing
+
+Implemented User Login
+
+Implemented JWT token generation
+
+Implemented JWT authentication
+
+Implemented [Authorize]
+
+Configured Swagger JWT authorization
+
+Implemented Create Note
+
+Implemented Get All Notes
+
+Implemented Get Note By ID
+
+Implemented Update Note
+
+Implemented Delete Note
+
+Implemented user-specific note access using JWT UserId
+
+Tested APIs using Swagger
+
+Project Structure
+Day-12
+│
+└── FundooNotes
+│
+├── FundooNotes.slnx
+│
+├── Fundoo.Api
+│ ├── Controllers
+│ │ ├── NoteController.cs
+│ │ └── UserController.cs
+│ ├── Program.cs
+│ ├── appsettings.json
+│ └── appsettings.Development.json
+│
+├── FundooNotes.Models
+│ ├── DTOs
+│ │ ├── LoginRequest.cs
+│ │ ├── LoginResponse.cs
+│ │ ├── NoteRequest.cs
+│ │ └── RegisterRequest.cs
+│ └── Entities
+│ ├── Note.cs
+│ └── User.cs
+│
+├── FundooNotes.Repository
+│ ├── Data
+│ │ └── FundooDbContext.cs
+│ ├── Implementations
+│ │ ├── NoteRepository.cs
+│ │ └── UserRepository.cs
+│ ├── Interfaces
+│ │ ├── INoteRepository.cs
+│ │ └── IUserRepository.cs
+│ └── Migrations
+│
+└── FundooNotes.Service
+├── Implementations
+│ ├── NoteService.cs
+│ └── UserService.cs
+└── Interfaces
+├── INoteService.cs
+└── IUserService.cs
+Progress
+✅ Day 12 Completed
 
 Repository Structure
 
@@ -826,6 +1019,7 @@ Layered Web API Architecture
 | Day 9  | 12-08-2026 | Entity Contact Web API                  | ✅     |
 | Day 10 | 13-08-2026 | Address Book Web API                    | ✅     |
 | Day 11 | 14-08-2026 | AddressBook - Layered Web API           | ✅     |
+| Day 12 | 17-08-2026 | FundooNotes Web API                     | ✅     |
 
 ---
 
@@ -844,6 +1038,7 @@ Layered Web API Architecture
 | 12-08-2026 | Day 9 - Entity Framework Core Contact API        |
 | 13-08-2026 | Day 10 - Address Book Web API                    |
 | 14-08-2026 | Day 11 - AddressBook Layered Web API             |
+| 17-08-2026 | Day 12 - FundooNotes Web API                     |
 
 ---
 
@@ -861,6 +1056,7 @@ Day 8   ✅
 Day 9   ✅
 Day 10  ✅
 Day 11  ✅
+Day 12  ✅
 ```
 
 ---
