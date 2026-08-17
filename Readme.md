@@ -624,7 +624,135 @@ Day10-AddressBookAPI
 
 ---
 
-# Repository Structure
+---
+
+Day 11 — 14-08-2026
+Topics Covered
+ASP.NET Core Web API
+
+Layered Architecture
+
+Solution with Multiple Projects
+
+API Layer
+
+Models Layer
+
+Repository Layer
+
+Service Layer
+
+Dependency Injection
+
+Interfaces
+
+DTOs
+
+CRUD Operations
+
+Search Operations
+
+Search By State
+
+Search By City
+
+SQL Server Integration
+
+Database Operations
+
+Swagger / OpenAPI
+
+Separation of Concerns
+
+Project
+AddressBook
+
+Architecture
+AddressBook.API
+↓
+AddressBook.Service
+↓
+AddressBook.Repository
+↓
+AddressBook.Models
+↓
+SQL Server / Database
+Features
+Created AddressBook solution
+
+Created AddressBook.API project
+
+Created AddressBook.Models project
+
+Created AddressBook.Repository project
+
+Created AddressBook.Service project
+
+Implemented layered architecture
+
+Implemented Dependency Injection
+
+Created Models and DTOs
+
+Created Repository Interfaces and Implementations
+
+Created Service Interfaces and Implementations
+
+Implemented Address Book CRUD operations
+
+Implemented Search By State
+
+Implemented Search By City
+
+Integrated SQL Server database
+
+Implemented API endpoints
+
+Tested APIs using Swagger
+
+Address Book Fields
+Id
+
+Name
+
+PhoneNumber
+
+Email
+
+Address
+
+City
+
+State
+
+ZipCode
+
+CreatedAt
+
+Project Structure
+Day11-AddressBook
+│
+├── AddressBook.sln
+│
+├── AddressBook.API
+│ ├── Controllers
+│ └── Program.cs
+│
+├── AddressBook.Models
+│ ├── Models
+│ └── DTOs
+│
+├── AddressBook.Repository
+│ ├── Interfaces
+│ └── Repositories
+│
+└── AddressBook.Service
+├── Interfaces
+└── Services
+Progress
+✅ Day 11 Completed
+
+Repository Structure
 
 ```text
 Refresher-Training
@@ -697,6 +825,7 @@ Layered Web API Architecture
 | Day 8  | 11-08-2026 | Contact Management Web API              | ✅     |
 | Day 9  | 12-08-2026 | Entity Contact Web API                  | ✅     |
 | Day 10 | 13-08-2026 | Address Book Web API                    | ✅     |
+| Day 11 | 14-08-2026 | AddressBook - Layered Web API           | ✅     |
 
 ---
 
@@ -714,6 +843,7 @@ Layered Web API Architecture
 | 11-08-2026 | Day 8 - Contact Management Web API using ADO.NET |
 | 12-08-2026 | Day 9 - Entity Framework Core Contact API        |
 | 13-08-2026 | Day 10 - Address Book Web API                    |
+| 14-08-2026 | Day 11 - AddressBook Layered Web API             |
 
 ---
 
@@ -730,6 +860,7 @@ Day 7   ✅
 Day 8   ✅
 Day 9   ✅
 Day 10  ✅
+Day 11  ✅
 ```
 
 ---
