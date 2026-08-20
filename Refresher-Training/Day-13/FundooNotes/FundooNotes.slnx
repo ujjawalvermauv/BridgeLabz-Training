@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Fundoo.Api/Fundoo.Api.csproj" />
+  <Project Path="FundooNotes.Models/FundooNotes.Models.csproj" />
+  <Project Path="FundooNotes.Repository/FundooNotes.Repository.csproj" />
+  <Project Path="FundooNotes.Service/FundooNotes.Service.csproj" />
+</Solution>
