@@ -1,4 +1,4 @@
-# Backend Refresher Training
+﻿# Backend Refresher Training
 
 This repository contains my Backend Refresher Training work at BridgeLabz.
 
@@ -10,7 +10,7 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
 
 # Day-wise Progress
 
-## Day 1 — 31-07-2026
+## Day 1 â€” 31-07-2026
 
 ### Topics Covered
 
@@ -56,11 +56,11 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
 
 ### Progress
 
-- ✅ Day 1 Completed
+- âœ… Day 1 Completed
 
 ---
 
-## Day 2 — 03-08-2026
+## Day 2 â€” 03-08-2026
 
 ### Topics Covered
 
@@ -99,11 +99,11 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
 
 ### Progress
 
-- ✅ Day 2 Completed
+- âœ… Day 2 Completed
 
 ---
 
-## Day 3 — 04-08-2026
+## Day 3 â€” 04-08-2026
 
 ### Topics Covered
 
@@ -148,11 +148,11 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
 
 ### Progress
 
-- ✅ Day 3 Completed
+- âœ… Day 3 Completed
 
 ---
 
-## Day 4 — 05-08-2026
+## Day 4 â€” 05-08-2026
 
 ### Topics Covered
 
@@ -190,11 +190,11 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
 
 ### Progress
 
-- ✅ Day 4 Completed
+- âœ… Day 4 Completed
 
 ---
 
-## Day 5 — 06-08-2026
+## Day 5 â€” 06-08-2026
 
 ### Topics Covered
 
@@ -239,11 +239,11 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
 
 ### Progress
 
-- ✅ Day 5 Completed
+- âœ… Day 5 Completed
 
 ---
 
-## Day 6 — 07-08-2026
+## Day 6 â€” 07-08-2026
 
 ### Topics Covered
 
@@ -285,11 +285,11 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
 
 ### Progress
 
-- ✅ Day 6 Completed
+- âœ… Day 6 Completed
 
 ---
 
-## Day 7 — 10-08-2026
+## Day 7 â€” 10-08-2026
 
 ### Topics Covered
 
@@ -332,11 +332,11 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
 
 ### Progress
 
-- ✅ Day 7 Completed
+- âœ… Day 7 Completed
 
 ---
 
-## Day 8 — 11-08-2026
+## Day 8 â€” 11-08-2026
 
 ### Topics Covered
 
@@ -362,13 +362,13 @@ This repository contains my Backend Refresher Training work at BridgeLabz.
 
 ```text
 Controller
-    ↓
+    â†“
 Service
-    ↓
+    â†“
 Repository
-    ↓
+    â†“
 ADO.NET
-    ↓
+    â†“
 SQL Server
 ```
 
@@ -394,32 +394,32 @@ SQL Server
 
 ```text
 Day8-ContactManagement
-│
-├── Controllers
-│   └── ContactController.cs
-│
-├── Models
-│   └── Contact.cs
-│
-├── Repositories
-│   ├── IContactRepository.cs
-│   └── ContactRepository.cs
-│
-├── Services
-│   ├── IContactService.cs
-│   └── ContactService.cs
-│
-├── Program.cs
-└── appsettings.json
+â”‚
+â”œâ”€â”€ Controllers
+â”‚   â””â”€â”€ ContactController.cs
+â”‚
+â”œâ”€â”€ Models
+â”‚   â””â”€â”€ Contact.cs
+â”‚
+â”œâ”€â”€ Repositories
+â”‚   â”œâ”€â”€ IContactRepository.cs
+â”‚   â””â”€â”€ ContactRepository.cs
+â”‚
+â”œâ”€â”€ Services
+â”‚   â”œâ”€â”€ IContactService.cs
+â”‚   â””â”€â”€ ContactService.cs
+â”‚
+â”œâ”€â”€ Program.cs
+â””â”€â”€ appsettings.json
 ```
 
 ### Progress
 
-- ✅ Day 8 Completed
+- âœ… Day 8 Completed
 
 ---
 
-## Day 9 — 12-08-2026
+## Day 9 â€” 12-08-2026
 
 ### Topics Covered
 
@@ -447,15 +447,15 @@ Day8-ContactManagement
 
 ```text
 Controller
-    ↓
+    â†“
 Service
-    ↓
+    â†“
 Repository
-    ↓
+    â†“
 DbContext
-    ↓
+    â†“
 Entity Framework Core
-    ↓
+    â†“
 SQL Server
 ```
 
@@ -485,40 +485,40 @@ SQL Server
 
 ```text
 Day9-EntityContact
-│
-├── Controllers
-│   └── ContactController.cs
-│
-├── Data
-│   └── ContactDbContext.cs
-│
-├── Models
-│   └── Contact.cs
-│
-├── Repositories
-│   ├── IContactRepository.cs
-│   └── ContactRepository.cs
-│
-├── Services
-│   ├── IContactService.cs
-│   └── ContactService.cs
-│
-├── Migrations
-│   ├── InitialCreate.cs
-│   ├── InitialCreate.Designer.cs
-│   └── ContactDbContextModelSnapshot.cs
-│
-├── Program.cs
-└── appsettings.json
+â”‚
+â”œâ”€â”€ Controllers
+â”‚   â””â”€â”€ ContactController.cs
+â”‚
+â”œâ”€â”€ Data
+â”‚   â””â”€â”€ ContactDbContext.cs
+â”‚
+â”œâ”€â”€ Models
+â”‚   â””â”€â”€ Contact.cs
+â”‚
+â”œâ”€â”€ Repositories
+â”‚   â”œâ”€â”€ IContactRepository.cs
+â”‚   â””â”€â”€ ContactRepository.cs
+â”‚
+â”œâ”€â”€ Services
+â”‚   â”œâ”€â”€ IContactService.cs
+â”‚   â””â”€â”€ ContactService.cs
+â”‚
+â”œâ”€â”€ Migrations
+â”‚   â”œâ”€â”€ InitialCreate.cs
+â”‚   â”œâ”€â”€ InitialCreate.Designer.cs
+â”‚   â””â”€â”€ ContactDbContextModelSnapshot.cs
+â”‚
+â”œâ”€â”€ Program.cs
+â””â”€â”€ appsettings.json
 ```
 
 ### Progress
 
-- ✅ Day 9 Completed
+- âœ… Day 9 Completed
 
 ---
 
-## Day 10 — 13-08-2026
+## Day 10 â€” 13-08-2026
 
 ### Topics Covered
 
@@ -557,15 +557,15 @@ Day9-EntityContact
 
 ```text
 Controller
-    ↓
+    â†“
 Service
-    ↓
+    â†“
 Repository
-    ↓
+    â†“
 DbContext
-    ↓
+    â†“
 Entity Framework Core
-    ↓
+    â†“
 SQL Server
 ```
 
@@ -594,39 +594,39 @@ SQL Server
 
 ```text
 Day10-AddressBookAPI
-│
-├── Controllers
-│   └── AddressController.cs
-│
-├── Data
-│   └── AddressBookDbContext.cs
-│
-├── Models
-│   └── AddressEntry.cs
-│
-├── Repositories
-│   ├── IAddressRepository.cs
-│   └── AddressRepository.cs
-│
-├── Services
-│   ├── IAddressService.cs
-│   └── AddressService.cs
-│
-├── Migrations
-│
-├── Program.cs
-└── appsettings.json
+â”‚
+â”œâ”€â”€ Controllers
+â”‚   â””â”€â”€ AddressController.cs
+â”‚
+â”œâ”€â”€ Data
+â”‚   â””â”€â”€ AddressBookDbContext.cs
+â”‚
+â”œâ”€â”€ Models
+â”‚   â””â”€â”€ AddressEntry.cs
+â”‚
+â”œâ”€â”€ Repositories
+â”‚   â”œâ”€â”€ IAddressRepository.cs
+â”‚   â””â”€â”€ AddressRepository.cs
+â”‚
+â”œâ”€â”€ Services
+â”‚   â”œâ”€â”€ IAddressService.cs
+â”‚   â””â”€â”€ AddressService.cs
+â”‚
+â”œâ”€â”€ Migrations
+â”‚
+â”œâ”€â”€ Program.cs
+â””â”€â”€ appsettings.json
 ```
 
 ### Progress
 
-- ✅ Day 10 Completed
+- âœ… Day 10 Completed
 
 ---
 
 ---
 
-Day 11 — 14-08-2026
+Day 11 â€” 14-08-2026
 Topics Covered
 ASP.NET Core Web API
 
@@ -669,13 +669,13 @@ AddressBook
 
 Architecture
 AddressBook.API
-↓
+â†“
 AddressBook.Service
-↓
+â†“
 AddressBook.Repository
-↓
+â†“
 AddressBook.Models
-↓
+â†“
 SQL Server / Database
 Features
 Created AddressBook solution
@@ -731,27 +731,27 @@ CreatedAt
 
 Project Structure
 Day11-AddressBook
-│
-├── AddressBook.sln
-│
-├── AddressBook.API
-│ ├── Controllers
-│ └── Program.cs
-│
-├── AddressBook.Models
-│ ├── Models
-│ └── DTOs
-│
-├── AddressBook.Repository
-│ ├── Interfaces
-│ └── Repositories
-│
-└── AddressBook.Service
-├── Interfaces
-└── Services
-✅ Day 11 Completed
+â”‚
+â”œâ”€â”€ AddressBook.sln
+â”‚
+â”œâ”€â”€ AddressBook.API
+â”‚ â”œâ”€â”€ Controllers
+â”‚ â””â”€â”€ Program.cs
+â”‚
+â”œâ”€â”€ AddressBook.Models
+â”‚ â”œâ”€â”€ Models
+â”‚ â””â”€â”€ DTOs
+â”‚
+â”œâ”€â”€ AddressBook.Repository
+â”‚ â”œâ”€â”€ Interfaces
+â”‚ â””â”€â”€ Repositories
+â”‚
+â””â”€â”€ AddressBook.Service
+â”œâ”€â”€ Interfaces
+â””â”€â”€ Services
+âœ… Day 11 Completed
 
-Day 12 — 17-08-2026
+Day 12 â€” 17-08-2026
 Topics Covered
 ASP.NET Core Web API
 
@@ -816,33 +816,33 @@ FundooNotes Web API
 
 Architecture
 Fundoo.Api
-↓
+â†“
 FundooNotes.Service
-↓
+â†“
 FundooNotes.Repository
-↓
+â†“
 FundooNotes.Models
-↓
+â†“
 Entity Framework Core
-↓
+â†“
 SQL Server
 Authentication Flow
 Register
-↓
+â†“
 Password Hashing using BCrypt
-↓
+â†“
 SQL Server
 
 Login
-↓
+â†“
 Validate Email & Password
-↓
+â†“
 Generate JWT Token
-↓
+â†“
 Swagger / Client
-↓
+â†“
 [Authorize]
-↓
+â†“
 Notes APIs
 Features
 Created FundooNotes solution
@@ -901,67 +901,67 @@ Tested APIs using Swagger
 
 Project Structure
 Day-12
-│
-└── FundooNotes
-│
-├── FundooNotes.slnx
-│
-├── Fundoo.Api
-│ ├── Controllers
-│ │ ├── NoteController.cs
-│ │ └── UserController.cs
-│ ├── Program.cs
-│ ├── appsettings.json
-│ └── appsettings.Development.json
-│
-├── FundooNotes.Models
-│ ├── DTOs
-│ │ ├── LoginRequest.cs
-│ │ ├── LoginResponse.cs
-│ │ ├── NoteRequest.cs
-│ │ └── RegisterRequest.cs
-│ └── Entities
-│ ├── Note.cs
-│ └── User.cs
-│
-├── FundooNotes.Repository
-│ ├── Data
-│ │ └── FundooDbContext.cs
-│ ├── Implementations
-│ │ ├── NoteRepository.cs
-│ │ └── UserRepository.cs
-│ ├── Interfaces
-│ │ ├── INoteRepository.cs
-│ │ └── IUserRepository.cs
-│ └── Migrations
-│
-└── FundooNotes.Service
-├── Implementations
-│ ├── NoteService.cs
-│ └── UserService.cs
-└── Interfaces
-├── INoteService.cs
-└── IUserService.cs
+â”‚
+â””â”€â”€ FundooNotes
+â”‚
+â”œâ”€â”€ FundooNotes.slnx
+â”‚
+â”œâ”€â”€ Fundoo.Api
+â”‚ â”œâ”€â”€ Controllers
+â”‚ â”‚ â”œâ”€â”€ NoteController.cs
+â”‚ â”‚ â””â”€â”€ UserController.cs
+â”‚ â”œâ”€â”€ Program.cs
+â”‚ â”œâ”€â”€ appsettings.json
+â”‚ â””â”€â”€ appsettings.Development.json
+â”‚
+â”œâ”€â”€ FundooNotes.Models
+â”‚ â”œâ”€â”€ DTOs
+â”‚ â”‚ â”œâ”€â”€ LoginRequest.cs
+â”‚ â”‚ â”œâ”€â”€ LoginResponse.cs
+â”‚ â”‚ â”œâ”€â”€ NoteRequest.cs
+â”‚ â”‚ â””â”€â”€ RegisterRequest.cs
+â”‚ â””â”€â”€ Entities
+â”‚ â”œâ”€â”€ Note.cs
+â”‚ â””â”€â”€ User.cs
+â”‚
+â”œâ”€â”€ FundooNotes.Repository
+â”‚ â”œâ”€â”€ Data
+â”‚ â”‚ â””â”€â”€ FundooDbContext.cs
+â”‚ â”œâ”€â”€ Implementations
+â”‚ â”‚ â”œâ”€â”€ NoteRepository.cs
+â”‚ â”‚ â””â”€â”€ UserRepository.cs
+â”‚ â”œâ”€â”€ Interfaces
+â”‚ â”‚ â”œâ”€â”€ INoteRepository.cs
+â”‚ â”‚ â””â”€â”€ IUserRepository.cs
+â”‚ â””â”€â”€ Migrations
+â”‚
+â””â”€â”€ FundooNotes.Service
+â”œâ”€â”€ Implementations
+â”‚ â”œâ”€â”€ NoteService.cs
+â”‚ â””â”€â”€ UserService.cs
+â””â”€â”€ Interfaces
+â”œâ”€â”€ INoteService.cs
+â””â”€â”€ IUserService.cs
 Progress
-✅ Day 12 Completed
+âœ… Day 12 Completed
 
 Repository Structure
 
 ```text
 Refresher-Training
-│
-├── README.md
-│
-├── day1-RDBMS
-├── day2-ER-Indexing-Normalization
-├── Day3-Store-Joins-Trigger
-├── day4-HealthClinicApp
-├── day5-WebAPI-Project
-├── day6-GreetingApp
-├── day7-contactapp
-├── Day8-ContactManagement
-├── Day9-EntityContact
-└── Day10-AddressBookAPI
+â”‚
+â”œâ”€â”€ README.md
+â”‚
+â”œâ”€â”€ day1-RDBMS
+â”œâ”€â”€ day2-ER-Indexing-Normalization
+â”œâ”€â”€ Day3-Store-Joins-Trigger
+â”œâ”€â”€ day4-HealthClinicApp
+â”œâ”€â”€ day5-WebAPI-Project
+â”œâ”€â”€ day6-GreetingApp
+â”œâ”€â”€ day7-contactapp
+â”œâ”€â”€ Day8-ContactManagement
+â”œâ”€â”€ Day9-EntityContact
+â””â”€â”€ Day10-AddressBookAPI
 ```
 
 ---
@@ -970,37 +970,306 @@ Refresher-Training
 
 ```text
 SQL
- ↓
+ â†“
 DBMS / RDBMS
- ↓
+ â†“
 ER Diagram
- ↓
+ â†“
 Normalization
- ↓
+ â†“
 Indexing
- ↓
+ â†“
 Stored Procedures
- ↓
+ â†“
 Triggers
- ↓
+ â†“
 ADO.NET
- ↓
+ â†“
 ASP.NET Core Web API
- ↓
+ â†“
 ASP.NET Core MVC
- ↓
+ â†“
 Minimal API
- ↓
+ â†“
 Repository Pattern
- ↓
+ â†“
 Service Layer
- ↓
+ â†“
 Entity Framework Core
- ↓
+ â†“
 EF Core Migrations
- ↓
+ â†“
 Layered Web API Architecture
 ```
+
+---
+
+## Day 13 — 20-08-2026
+
+### Topics Covered
+- Layered Architecture Refinement
+- ASP.NET Core Web API Extensions
+- Data Transfer Objects (DTOs) Refactoring
+- Entity Framework Core Migrations
+
+### Project
+**FundooNotes Web API**
+
+### Architecture
+```text
+Fundoo.Api
+ ↓
+FundooNotes.Service
+ ↓
+FundooNotes.Repository
+ ↓
+FundooNotes.Models
+```
+
+### Features
+- Refined FundooNotes solution structure
+- Expanded Note CRUD operations
+- Refined User authentication logic
+- Stabilized database connections and relationships
+
+### Project Structure
+```text
+Day-13
+│
+└── FundooNotes
+```
+
+### Progress
+✅ Day 13 Completed
+
+---
+
+## Day 14 — 21-08-2026
+
+### Topics Covered
+- API Endpoints Optimization
+- JWT Authorization Enhancements
+- Note Entity Expansion
+- Error Handling
+
+### Project
+**FundooNotes Web API**
+
+### Architecture
+```text
+Fundoo.Api
+ ↓
+FundooNotes.Service
+ ↓
+FundooNotes.Repository
+```
+
+### Features
+- Continued refinement of FundooNotes API
+- Ensured strict user data isolation using ClaimTypes.NameIdentifier
+- Added comprehensive model validation for DTOs
+- Optimized EF Core LINQ queries for Note retrieval
+
+### Project Structure
+```text
+Day-14
+│
+└── FundooNotes
+```
+
+### Progress
+✅ Day 14 Completed
+
+---
+
+## Day 15 — 24-08-2026
+
+### Topics Covered
+- Note CRUD Operations
+- Advanced JWT Authentication & Authorization
+- EF Core Migrations
+- Swagger UI Configuration
+- Repository and Service Layer Pattern
+
+### Project
+**FundooNotes Web API**
+
+### Architecture
+```text
+Fundoo.Api (Controllers, Program.cs)
+ ↓
+FundooNotes.Service (Interfaces & Implementations)
+ ↓
+FundooNotes.Repository (DbContext, EF Core)
+ ↓
+FundooNotes.Models (Entities & DTOs)
+```
+
+### Features
+- Implemented robust Note CRUD APIs (Create, Read, Update, Delete)
+- Implemented JWT authentication and route protection using `[Authorize]`
+- Enforced strict data isolation by extracting `UserId` directly from JWT claims
+- Added specific Note features like `IsPinned`, `IsArchived`, and `IsTrashed`
+- Created and applied EF Core migrations for SQL Server
+- Configured Swagger with JWT Bearer token support
+
+### Project Structure
+```text
+Day-15
+│
+└── FundooNotes
+    ├── Fundoo.Api
+    ├── FundooNotes.Models
+    ├── FundooNotes.Repository
+    └── FundooNotes.Service
+```
+
+### Progress
+✅ Day 15 Completed
+
+---
+
+## Day 16 — 25-08-2026
+
+### Topics Covered
+- Labels and Many-to-Many Relationships
+- Unit Testing with MSTest and Moq
+- Application Logging with NLog
+- Global Exception Handling
+
+### Project
+**FundooNotes Web API**
+
+### Architecture
+```text
+Fundoo.Api (NLog integration)
+ ↓
+Fundoo.Tests (MSTest + Moq)
+ ↓
+FundooNotes.Service (LabelService)
+ ↓
+FundooNotes.Repository (LabelRepository)
+```
+
+### Features
+- Created `Label` entity and implemented Label CRUD operations
+- Established a Many-to-Many relationship between Notes and Labels via a `NoteLabels` join table
+- Added APIs to attach and remove labels from notes, and fetch notes by label
+- Generated and applied EF Core `AddLabels` migration
+- Integrated NLog for structured application logging and file output
+- Created comprehensive unit tests using MSTest and Moq (`Fundoo.Tests`)
+- Verified test suite executing with 100% pass rate
+
+### Project Structure
+```text
+Day-16
+│
+└── FundooNotes
+    ├── Fundoo.Api
+    ├── Fundoo.Tests
+    ├── FundooNotes.Models
+    ├── FundooNotes.Repository
+    └── FundooNotes.Service
+```
+
+### Progress
+✅ Day 16 Completed
+
+---
+
+## Day 17 — 26-08-2026
+
+### Topics Covered
+- Reminder System Implementation
+- Asynchronous Messaging with RabbitMQ
+- SMTP Email Integration
+- Background Hosted Services
+
+### Project
+**FundooNotes Web API**
+
+### Architecture
+```text
+Fundoo.Api (ReminderController, BackgroundService)
+ ↓
+FundooNotes.Service (RabbitMQService, SmtpService, ReminderService)
+ ↓
+FundooNotes.Repository (ReminderRepository)
+ ↓
+Message Broker (RabbitMQ) & SMTP Server
+```
+
+### Features
+- Created `Reminder` entity and specialized DTOs linking `User` and `Note`
+- Implemented Reminder CRUD operations and API endpoints
+- Integrated `RabbitMQ.Client` to publish `ReminderMessage` events to a queue
+- Created `ReminderConsumerBackgroundService` as a hosted service to continuously listen to the queue
+- Integrated `System.Net.Mail` via `SmtpService` to dispatch email notifications when reminder time is reached
+- Added `AddReminders` EF Core migration and applied to SQL Server
+- Extended unit testing suite to cover Reminder logic and mock RabbitMQ/SMTP dependencies
+
+### Project Structure
+```text
+Day-17
+│
+└── FundooNotes
+    ├── Fundoo.Api
+    ├── Fundoo.Tests
+    ├── FundooNotes.Models
+    ├── FundooNotes.Repository
+    └── FundooNotes.Service
+```
+
+### Progress
+✅ Day 17 Completed
+
+---
+
+## Day 18 — 26-08-2026
+
+### Topics Covered
+- Distributed Caching with Redis
+- StackExchange.Redis Integration
+- Cache Invalidation Strategies
+- API Performance Optimization
+
+### Project
+**FundooNotes Web API**
+
+### Architecture
+```text
+Fundoo.Api (StackExchange.Redis DI)
+ ↓
+FundooNotes.Service (CacheService, NoteService)
+ ↓
+Redis Server (Distributed Cache)
+```
+
+### Features
+- Configured Redis caching via `StackExchange.Redis`
+- Created `ICacheService` and implemented `CacheService` to handle generic JSON serialization and Redis operations
+- Added `GetRecentNotesAsync` to fetch the top 5 most recently updated notes
+- Created `GET /api/Note/recent` endpoint
+- Implemented a 5-minute cache expiry for recent notes retrieval
+- Engineered dynamic cache invalidation (cache eviction) immediately following any Note mutation (Create, Update, Delete, Pin, Archive, Trash)
+- Injected `IConnectionMultiplexer` as a singleton in `Program.cs` and added connection string to `appsettings.json`
+- Wrote robust MSTest unit tests to verify both cache hit (skipping DB) and cache miss (querying DB and setting cache) behaviors
+- Test execution passed successfully with 26 total passing tests
+
+### Project Structure
+```text
+Day-18
+│
+└── FundooNotes
+    ├── Fundoo.Api
+    ├── Fundoo.Tests
+    ├── FundooNotes.Models
+    ├── FundooNotes.Repository
+    └── FundooNotes.Service
+```
+
+### Progress
+✅ Day 18 Completed
 
 ---
 
@@ -1020,6 +1289,12 @@ Layered Web API Architecture
 | Day 10 | 13-08-2026 | Address Book Web API                    | ✅     |
 | Day 11 | 14-08-2026 | AddressBook - Layered Web API           | ✅     |
 | Day 12 | 17-08-2026 | FundooNotes Web API                     | ✅     |
+| Day 13 | 20-08-2026 | FundooNotes Continuation                | ✅     |
+| Day 14 | 21-08-2026 | FundooNotes Continuation                | ✅     |
+| Day 15 | 24-08-2026 | FundooNotes Features & Authentication   | ✅     |
+| Day 16 | 25-08-2026 | FundooNotes Labels & Unit Testing       | ✅     |
+| Day 17 | 26-08-2026 | FundooNotes Reminders & RabbitMQ        | ✅     |
+| Day 18 | 26-08-2026 | FundooNotes Redis Caching               | ✅     |
 
 ---
 
@@ -1039,6 +1314,12 @@ Layered Web API Architecture
 | 13-08-2026 | Day 10 - Address Book Web API                    |
 | 14-08-2026 | Day 11 - AddressBook Layered Web API             |
 | 17-08-2026 | Day 12 - FundooNotes Web API                     |
+| 20-08-2026 | Day 13 - FundooNotes Continuation                |
+| 21-08-2026 | Day 14 - FundooNotes Continuation                |
+| 24-08-2026 | Day 15 - FundooNotes Advanced Features           |
+| 25-08-2026 | Day 16 - FundooNotes Labels & Unit Testing       |
+| 26-08-2026 | Day 17 - FundooNotes Reminders & RabbitMQ        |
+| 26-08-2026 | Day 18 - FundooNotes Redis Caching               |
 
 ---
 
@@ -1057,6 +1338,12 @@ Day 9   ✅
 Day 10  ✅
 Day 11  ✅
 Day 12  ✅
+Day 13  ✅
+Day 14  ✅
+Day 15  ✅
+Day 16  ✅
+Day 17  ✅
+Day 18  ✅
 ```
 
 ---
