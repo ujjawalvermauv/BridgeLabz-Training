@@ -14,7 +14,7 @@ public class NoteService : INoteService
         _noteRepository = noteRepository;
     }
 
-    public async Task<NoteRequest> CreateAsync(
+    public async Task<NoteResponse> CreateAsync(
         NoteRequest request,
         int userId)
     {
@@ -22,26 +22,36 @@ public class NoteService : INoteService
         {
             Title = request.Title,
             Description = request.Description,
-            UserId = userId
+            UserId = userId,
+            CreatedAt = DateTime.UtcNow
         };
 
         await _noteRepository.CreateAsync(note);
 
-        return request;
+        return new NoteResponse
+        {
+            Id = note.Id,
+            Title = note.Title,
+            Description = note.Description,
+            CreatedAt = note.CreatedAt
+        };
     }
 
-    public async Task<List<NoteRequest>> GetAllAsync(int userId)
+    public async Task<List<NoteResponse>> GetAllAsync(int userId)
     {
         var notes = await _noteRepository.GetByUserIdAsync(userId);
 
-        return notes.Select(note => new NoteRequest
+        return notes.Select(note => new NoteResponse
         {
+            Id = note.Id,
             Title = note.Title,
-            Description = note.Description
+            Description = note.Description,
+            CreatedAt = note.CreatedAt,
+            UpdatedAt = note.UpdatedAt
         }).ToList();
     }
 
-    public async Task<NoteRequest?> GetByIdAsync(
+    public async Task<NoteResponse?> GetByIdAsync(
         int id,
         int userId)
     {
@@ -52,10 +62,13 @@ public class NoteService : INoteService
             return null;
         }
 
-        return new NoteRequest
+        return new NoteResponse
         {
+            Id = note.Id,
             Title = note.Title,
-            Description = note.Description
+            Description = note.Description,
+            CreatedAt = note.CreatedAt,
+            UpdatedAt = note.UpdatedAt
         };
     }
 

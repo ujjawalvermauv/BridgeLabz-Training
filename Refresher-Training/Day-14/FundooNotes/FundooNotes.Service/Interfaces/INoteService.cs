@@ -4,11 +4,11 @@ namespace FundooNotes.Service.Interfaces;
 
 public interface INoteService
 {
-    Task<NoteRequest> CreateAsync(NoteRequest request, int userId);
+    Task<NoteResponse> CreateAsync(NoteRequest request, int userId);
 
-    Task<List<NoteRequest>> GetAllAsync(int userId);
+    Task<List<NoteResponse>> GetAllAsync(int userId);
 
-    Task<NoteRequest?> GetByIdAsync(int id, int userId);
+    Task<NoteResponse?> GetByIdAsync(int id, int userId);
 
     Task<bool> UpdateAsync(int id, NoteRequest request, int userId);
 
